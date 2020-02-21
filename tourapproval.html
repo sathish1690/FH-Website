@@ -1,0 +1,1579 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Language" content="en">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Lycafly</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+      <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+      <meta name="msapplication-tap-highlight" content="no">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href="./main.css" rel="stylesheet">
+      <link rel="stylesheet" href="./bootstrap.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./owl.carousel.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar" id="sidebar-navigation">
+         <div class="app-header header-shadow">
+            <div class="app-header__logo">
+               <div class="logo-src">
+                  <img src="assets/images/logo-inverse.png">
+               </div>
+               <div class="header__pane ml-auto">
+                  <div>
+                     <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="app-header__mobile-menu">
+               <div>
+                  <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                  <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                  </span>
+                  </button>
+               </div>
+            </div>
+            <div class="app-header__menu">
+               <span>
+               <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+               <span class="btn-icon-wrapper">
+               <i class="fa fa-ellipsis-v fa-w-6"></i>
+               </span>
+               </button>
+               </span>
+            </div>
+            <div class="app-header__content">
+               <div class="app-header-left">
+                  <ul class="header-menu nav">
+                     <li class="nav-item">
+                        <a href="home.html" class="nav-link">
+                        <i class="material-icons">flight</i>Fight
+                        </a>
+                     </li>
+                     <li class="btn-group nav-item">
+                        <a href="home-hotel.html" class="nav-link">
+                        <i class="material-icons">location_city</i> Hotel
+                        </a>
+                     </li>
+                     <li class="dropdown nav-item">
+                        <a href="home-fh.html" class="nav-link">
+                        <i class="material-icons">flight</i>  <i class="material-icons">location_city</i>
+                        Flight + hotel
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="app-header-right">
+                  <div class="header-btn-lg pr-0">
+                     <div class="widget-content p-0">
+                        <div class="widget-content-wrapper">
+                           <div class="widget-content-left">
+                              <div class="btn-group">
+                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                 <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                 <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                 </a>
+                                 <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                    <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Change password</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Log out</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="widget-content-left  ml-3 header-user-info">
+                              <div class="widget-heading">
+                                 Janaka Rajarathne
+                              </div>
+                              <div class="widget-subheading">
+                                 Sales Manager
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+               <div class="app-header__logo">
+                  <div class="logo-src"></div>
+                  <div class="header__pane ml-auto">
+                     <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="app-header__mobile-menu">
+                  <div>
+                     <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+               <div class="app-header__menu">
+                  <span>
+                  <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                  <span class="btn-icon-wrapper">
+                  <i class="fa fa-ellipsis-v fa-w-6"></i>
+                  </span>
+                  </button>
+                  </span>
+               </div>
+               <div class="scrollbar-sidebar">
+                 <div class="app-sidebar__inner">
+                     <ul class="vertical-nav-menu my-quotes-dtls">
+                        <li class="app-sidebar__heading">Quotation</li>
+                        <li class="">
+                           <a href="#">
+                           <i class="metismenu-icon pe-7s-note2"></i>
+                           My Quotes <span class="badge badge-pill badge-warning">2</span>
+                           <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                           </a>
+                           <ul>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon"></i>
+                                 Success
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon">
+                                 </i>Pending Quotation
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="tourapproval.html">
+                           <i class="metismenu-icon pe-7s-car"></i>
+                           Tour Approval<span class="badge badge-pill badge-danger">3</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="qcpending.html">
+                           <i class="metismenu-icon pe-7s-display2"></i>
+                           QC Pending<span class="badge badge-pill badge-success">9</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="ticketed.html">
+                           <i class="metismenu-icon pe-7s-copy-file"></i>
+                           Ticketed<span class="badge badge-pill badge-primary">6</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="vertical-nav-menu">
+                        <li class="app-sidebar__heading">User Info</li>
+                        <li>
+                           <a href="Edit-profile.html">
+                           <i class="metismenu-icon pe-7s-user"></i>
+                           Edit profile
+                           </a>
+                        </li>
+                        <li>
+                           <a href="agentuser.html">
+                           <i class="metismenu-icon pe-7s-users"></i>
+                           Agent User
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="app-main__outer">
+               <div class="app-main__inner">
+                  <div class="page-header-sec">
+                     <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                           <div class="page-title-heading">
+                              <div class="page-title-icon">
+                                 <i class="pe-7s-display1 icon-gradient bg-premium-dark">
+                                 </i>
+                              </div>
+                              <div>
+                                Tour Approval
+                                 <div class="page-title-subheading">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="col-md-12">
+                        <div class="card card-body pnrsearch" style="background: #fff; margin-bottom:10px; padding-top:25px;">
+                           <form class="">
+                              <div class="form-row">
+                                 <div class="col-md-1">
+                                    <div class="position-relative form-group">
+                                       <label for="exampleEmail11" class="">Invoice</label>
+                                       <input name="Invoice" id="Invoice" placeholder="Invoice No" type="Invoice" class="form-control">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-1">
+                                    <div class="position-relative form-group">
+                                       <label for="PNR" class="">PNR</label>
+                                       <input name="PNR" id="PNR" placeholder="PNR No" type="PNR" class="form-control">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2">
+                                    <div class="position-relative form-group">
+                                       <label for="fromdate" class="">Booking from date</label>
+                                       <input name="fromdate" id="fromdate" placeholder="dd/mm/yyyy" type="fromdate" class="form-control">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-2">
+                                    <div class="position-relative form-group">
+                                       <label for="todate" class="">Booking to date</label>
+                                       <input name="todate" id="todate" placeholder="dd/mm/yyyy" type="todate" class="form-control">
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <div class="position-relative form-group myquote-form">
+                                       <label class="check-container"><span><i class="fa fa-fighter-jet"></i></span>Flight
+                                       <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                       <label class="check-container"><span><i class="fa fa-building"></i></span>Hotel
+                                       <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                       <span class="checkmark"></span>
+                                       </label>   
+                                       <label class="check-container"><span><i class="fa fa-building"></i><i class="fa fa-fighter-jet"></i></span>Flight+Hotel
+                                       <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                       <span class="checkmark"></span>
+                                       </label>   
+                                       <button role="button" class="btn btn-lg btn-primary myquote-search">Search</button>  
+                                       <button role="button" class="btn btn-lg btn-default myquote-search">Clear</button>  
+                                    </div>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="clearfix"></div>
+                     <!--<ul class="tabs-animated-shadow tabs-animated nav quote-nav">
+                        <li class="nav-item">
+                           <a role="tab" class="nav-link active" id="tab-success" data-toggle="tab" href="#tab-animated-0">
+                           <span>Success</span>
+                           </a>
+                        </li>
+                        <li class="nav-item">
+                           <a role="tab" class="nav-link" id="tab-pending" data-toggle="tab" href="#tab-animated-1">
+                           <span>Pending Quote</span>
+                           </a>
+                        </li>
+                     </ul>-->
+                     <div class="tab-content" style="margin-top:20px;">
+                        <div class="tab-pane active" id="tab-animated-0" role="tabpanel">
+                           <div class="col-lg-12">
+                              <div class="main-card mb-3 card">
+                                 <div class="card-body">
+                                    <ul class="list-inline toggle-text">
+                                       <li>Toggle column:</i>
+                                       <li>PNR | </li>
+                                       <li>Source | </li>
+                                       <li>Flight | </li>
+                                       <li>Dest | </li>
+                                       <li>Dept/Checkin Date| </li>
+                                       <li>Status | </li>
+                                       <li>Pax Name |  </li>
+                                       <li> Total | </li>
+                                       <li>	Booking | </li>
+                                       <li>Product | </li>
+                                       <li>Action</li>
+                                    </ul>
+                                    <ul class="list-inline toggle-input">
+                                       <li><input name="fromdate" id="fromdate" placeholder="PNR" type="fromdate" class="form-control"></li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Source" type="fromdate" class="form-control">  </li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Flight " type="fromdate" class="form-control"></li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Dest" type="fromdate" class="form-control">  </li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Dept/Checkin Date" type="fromdate" class="form-control"></li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Status" type="fromdate" class="form-control"> </li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Pax Name " type="fromdate" class="form-control"></li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Total" type="fromdate" class="form-control"> </li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Booking" type="fromdate" class="form-control"></li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Product" type="fromdate" class="form-control"></li>
+                                       <li><input name="fromdate" id="fromdate" placeholder="Action" type="fromdate" class="form-control"></li>
+                                    </ul>
+                                    <table class="mb-0 table table-striped quote-detail-table" id="always">
+                                       <thead>
+                                          <tr>
+                                             <th>Inv</th>
+                                             <th>PNR</th>
+                                             <th>Source</th>
+                                             <th>Flight</th>
+                                             <th>Dest</th>
+                                             <th>Dept/Checkin Date</th>
+                                             <th>Status</th>
+                                             <th>Pax Name</th>
+                                             <th>Total</th>
+                                             <th>Booking</th>
+                                             <th>Product</th>
+                                             <th>Action</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <th scope="row">241</th>
+                                             <td>NPRQZ</td>
+                                             <td>MAA</td>
+                                             <td>AI</td>
+                                             <td>LON</td>
+                                             <td>27-Feb-2020</td>
+                                             <td>
+                                                <div class="badge badge-success">Success</div>
+                                             </td>
+                                             <td>arjun</td>
+                                             <td>952.31</td>
+                                             <td>No Seat</td>
+                                             <td>F</td>
+                                             <td class="action-btn"> 
+                                                <i class="material-icons action-edit" data-toggle="modal" data-target=".bd-example-modal-lg">create</i>
+                                               <!-- <i class="material-icons quotation-dtls" data-toggle="modal" data-target=".bd-example-modal-lg1">drafts</i>-->
+                                                <i class="material-icons quottion-move" data-toggle="modal" data-target="#exampleModalCenter3">reply</i>
+                                                <i class="material-icons quotation-delete" data-toggle="modal" data-target="#exampleModalCenter1">close</i>
+                                                <i class="material-icons quotation-remark" data-toggle="modal" data-target="#exampleModalCenter2">description</i>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <th scope="row">242</th>
+                                             <td>NPERZ</td>
+                                             <td>LON</td>
+                                             <td>QA</td>
+                                             <td>BKK</td>
+                                             <td>7-Feb-2020</td>
+                                             <td>
+                                                <div class="badge badge-warning">Pending</div>
+                                             </td>
+                                             <td>Amal</td>
+                                             <td>456.31</td>
+                                             <td>No Seat</td>
+                                             <td>	F</td>
+                                             <td class="action-btn"> 
+                                                <i class="material-icons action-edit" data-toggle="modal" data-target=".bd-example-modal-lg">create</i>
+                                                <!--<i class="material-icons quotation-dtls" data-toggle="modal" data-target=".bd-example-modal-lg1">drafts</i>-->
+												 <i class="material-icons quottion-move" data-toggle="modal" data-target="#exampleModalCenter3">reply</i>
+                                                <i class="material-icons quotation-delete" data-toggle="modal" data-target="#exampleModalCenter1">close</i>
+                                                <i class="material-icons quotation-remark" data-toggle="modal" data-target="#exampleModalCenter2">description</i>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <th scope="row">242</th>
+                                             <td>NWEVR</td>
+                                             <td>MAA</td>
+                                             <td>QA</td>
+                                             <td>HKG</td>
+                                             <td>17-Feb-2020</td>
+                                             <td>
+                                                <div class="badge badge-danger">In Progress</div>
+                                             </td>
+                                             <td>Lokesh</td>
+                                             <td>696.31</td>
+                                             <td>No Seat</td>
+                                             <td>	F</td>
+                                             <td class="action-btn"> 
+                                                <i class="material-icons action-edit" data-toggle="modal" data-target=".bd-example-modal-lg">create</i>
+                                               <!-- <i class="material-icons quotation-dtls" data-toggle="modal" data-target=".bd-example-modal-lg1">drafts</i>-->
+												 <i class="material-icons quottion-move" data-toggle="modal" data-target="#exampleModalCenter3">reply</i>
+                                                <i class="material-icons quotation-delete" data-toggle="modal" data-target="#exampleModalCenter1">close</i>
+                                                <i class="material-icons quotation-remark" data-toggle="modal" data-target="#exampleModalCenter2">description</i>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <th scope="row">243</th>
+                                             <td>NQYVB</td>
+                                             <td>CDG</td>
+                                             <td>QA</td>
+                                             <td>LHR</td>
+                                             <td>20-Feb-2020</td>
+                                             <td>
+                                                <div class="badge badge-info">On hold</div>
+                                             </td>
+                                             <td>Yuva</td>
+                                             <td>546.31</td>
+                                             <td>No Seat</td>
+                                             <td>	F</td>
+                                             <td class="action-btn"> 
+                                                <i class="material-icons action-edit" data-toggle="modal" data-target=".bd-example-modal-lg">create</i>
+                                               <!-- <i class="material-icons quotation-dtls" data-toggle="modal" data-target=".bd-example-modal-lg1">drafts</i>-->
+												 <i class="material-icons quottion-move" data-toggle="modal" data-target="#exampleModalCenter3">reply</i>
+                                                <i class="material-icons quotation-delete" data-toggle="modal" data-target="#exampleModalCenter1">close</i>
+                                                <i class="material-icons quotation-remark" data-toggle="modal" data-target="#exampleModalCenter2">description</i>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="app-wrapper-footer">
+                  <div class="app-footer">
+                     <div class="app-footer__inner text-center">
+                        <p class="text-center">© 2020 lycafly, Inc, an lycafly Group Company. All rights reserved.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade bd-example-modal-lg quottaion-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle"><i class="material-icons">remove_red_eye</i>View Quotation</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <div class="col-xs-12 paypage">
+                     <div class="box box-success col-md-12 fair-details">
+                        <div class="box-header">
+                           <h2 class="box-title text-green">User Information</h2>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body ">
+                           <table class="table table-striped quote-table">
+                              <tbody>
+                                 <tr>
+                                    <th>Quotation Id</th>
+                                    <th>Inv Date Time</th>
+                                    <th>Primary Pax</th>
+                                    <th>Pax Email ID</th>
+                                    <th>Pax Contact #</th>
+                                 </tr>
+                                 <tr>
+                                    <td>10193  </td>
+                                    <td>Sun, 05 Jan 2020 14:29:44</td>
+                                    <td>Kishore masapalli</td>
+                                    <td>yuvakishore.masapalli@lycafly.com</td>
+                                    <td>098426543839</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                        <!-- /.box-body -->
+                     </div>
+                     <!-- /.box -->
+                     <!---Booking information Tab-->
+                     <div class="box box-success col-md-12 fair-details"  style="margin-bottom:20px;">
+                        <div class="box-header">
+                           <h2 class="box-title text-green">Booking Information</h2>
+                        </div>
+                        <div class="box-body">
+                           <table class="table table-striped quote-table">
+                              <tbody>
+                                 <tr>
+                                    <th>Quotation Amount</th>
+                                    <th>Booking Status</th>
+                                    <th>Folder Number</th>
+                                 </tr>
+                                 <tr>
+                                    <td>£ 1191.42</td>
+                                    <td>New</td>
+                                    <td id="penguinfolderno">-</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="clearfix"></div>
+                     <div style="margin-bottom:20px;">
+                        <input type="hidden" id="Quotationid" value="10193">
+                        <button name="ButtonType" id="autoreceipt" class="btn btn-success pull-right"  value="Auto Receipt">File Receipt</button>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 ">
+                     <nav class="tabs-animated-shadow tabs-animated nav quote-nav">
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                           <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><span>Flight Info</span></a>
+                           <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><span>Hotel Info</span></a>
+                           <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><span>Payment Info </span></a>
+                           <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">
+                           <span>Passenger Info</span>
+                           </a>
+                           <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-quote" role="tab" aria-controls="nav-about" aria-selected="false">
+                           <span>Quotation Info</span>
+                           </a>
+                           <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-remarks" role="tab" aria-controls="nav-about" aria-selected="false">
+                           <span>Remarks</span>
+                           </a>
+                        </div>
+                     </nav>
+                     <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                           <div class="col-md-12 fair-details" style="padding: 0px 0px 0px 0px;">
+                              <table class="table" style="margin-top:0px;">
+                                 <tbody>
+                                    <tr>
+                                       <td class="font-bold">Supl. PNR #</td>
+                                       <td>QBDYTC</td>
+                                       <td class="font-bold">Supplier</td>
+                                       <td>SABRE</td>
+                                       <td class="font-bold">Ticket Status</td>
+                                       <td>
+                                          <select id="UpdateFlightstatus" name="FlightitinearyDetails.TicketStatus">
+                                             <option selected="selected" value="50">New</option>
+                                             <option value="51">Pending For Ticket</option>
+                                             <option value="52">Send To Ticketing Team</option>
+                                             <option value="53">Ticketed</option>
+                                             <option value="54">Cancelled</option>
+                                          </select>
+                                          <i data-toggle="modal" id="FlightTicketstatus" class="fa fa-fw fa-save fa-admin-fly faicon_clr"></i>
+                                       </td>
+                                       <td class="font-bold ">Flight Total</td>
+                                       <td>£ 850.34</td>
+                                    </tr>
+                                    <tr>
+                                       <td class="font-bold">Vld. Airline</td>
+                                       <td>WY</td>
+                                       <td class="font-bold">Mkt. Airline</td>
+                                       <td>WY</td>
+                                       <td class="font-bold">Trip Type</td>
+                                       <td>RoundTrip</td>
+                                       <td class="font-bold">Lst Tkt Date</td>
+                                       <td>04-Mar-2020</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="col-md-12 fair-details" style="padding: 0px 0px 0px 0px;">
+                              <h2>Flight Details</h2>
+                              <table class="table table-striped quote-table">
+                                 <thead>
+                                    <tr>
+                                       <th>Departure</th>
+                                       <th>Departure date</th>
+                                       <th>Arrival</th>
+                                       <th>Arrival date</th>
+                                       <th>Flight</th>
+                                       <th>Terminal</th>
+                                       <th>Airlines</th>
+                                       <th>Baggage</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>London(LHR)</td>
+                                       <td>Thu, 20 Feb 2020, 15:20</td>
+                                       <td>Chennai(MAA)</td>
+                                       <td>Tue, 23 Feb 2020, 12:00</td>
+                                       <td>8</td>
+                                       <td>Terminal 4</td>
+                                       <td>Qatar airlines(operated by qatar airways)</td>
+                                       <td>Adult:30Kgs</td>
+                                    </tr>
+                                    <tr>
+                                       <td>London(LHR)</td>
+                                       <td>Thu, 20 Feb 2020, 15:20</td>
+                                       <td>Chennai(MAA)</td>
+                                       <td>Tue, 23 Feb 2020, 12:00</td>
+                                       <td>8</td>
+                                       <td>Terminal 4</td>
+                                       <td>Qatar airlines(operated by qatar airways)</td>
+                                       <td>Adult:30Kgs</td>
+                                    </tr>
+                                    <tr>
+                                       <td>London(LHR)</td>
+                                       <td>Thu, 20 Feb 2020, 15:20</td>
+                                       <td>Chennai(MAA)</td>
+                                       <td>Tue, 23 Feb 2020, 12:00</td>
+                                       <td>8</td>
+                                       <td>Terminal 4</td>
+                                       <td>Qatar airlines(operated by qatar airways)</td>
+                                       <td>Adult:30Kgs</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="col-lg-12" style="padding: 0px 0px 0px 0px;">
+                              <div class=" col-lg-6 fair-details">
+                                 <div class="box box-warning">
+                                    <div class="box-header">
+                                       <h3 class="box-title text-yellow" style="padding: 0px 0px 0px 10px;">Fare Details</h3>
+                                    </div>
+                                    <!-- /.box-header -->
+                                    <div class="box-body no-padding table-responsive">
+                                       <table class="table table-striped quote-table">
+                                          <thead>
+                                             <tr>
+                                                <th>Fare Type</th>
+                                                <th>Adult</th>
+                                                <th>Total</th>
+                                             </tr>
+                                          </thead>
+                                          <tbody>
+                                             <tr>
+                                                <td>Base Fare</td>
+                                                <td>£ 99.00</td>
+                                                <td>£ 99.00</td>
+                                             </tr>
+                                             <tr>
+                                                <td>Tax</td>
+                                                <td>£ 346.17</td>
+                                                <td>£ 346.17</td>
+                                             </tr>
+                                             <tr>
+                                                <td>Fare / Pax</td>
+                                                <td>£ 445.17</td>
+                                                <td>£ 445.17</td>
+                                             </tr>
+                                             <tr>
+                                                <td>Pax Count</td>
+                                                <td>2</td>
+                                                <td>2</td>
+                                             </tr>
+                                          </tbody>
+                                          <tfoot>
+                                             <tr style=" background: #3c8dbc; color: #fff;">
+                                                <td>TOTAL FARE</td>
+                                                <td>£ 890.34</td>
+                                                <td>£ 890.34</td>
+                                             </tr>
+                                          </tfoot>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-6" style="padding-left: 35px;">
+                                 <div class="box box-warning ">
+                                    <div class="box-header" style="margin-top: 10px;">
+                                       <h2 class="box-title text-yellow" style="padding: 10px 0px 0px 10px;">Confidential Remark</h2>
+                                    </div>
+                                    <!-- /.box-header -->
+                                    <div class="box-body no-padding" style="margin-left: 10px;">
+                                       <p><b>Base fare (BAS) : </b>(£) :99.00</p>
+                                       <p><b>Tax amount (Tax) : </b>(£) :346.17</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						 <div class="col-md-12 fair-details quote-hotel-dtls" style="padding: 0px 0px 0px 0px;">
+                              <h2>Hotel Details</h2>
+                              <table class="table table-striped quote-table">
+                                 <thead>
+                                    <tr>
+                                       <th>Hotel name</th>
+                                       <th>Check in/Out Date</th>
+                                       <th style="border-right: none;">Particulars</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>Eros by hilton, Nehru palace, <br>
+                                          new delhi - 100034, <br>
+                                          phno: 21239493843, <br>
+                                          email:nehrupalace@hilton.com
+                                       </td>
+                                       <td>Check-In: Wed, 03 Oct 2019<br>
+                                          Check-Out: Wed, 03 Oct 2019<br>
+                                       </td>
+                                       <td style="border-right: none;">Night(s) : 1 <br>
+                                          Room(s) : 1 <br>
+                                          Total guest : 2 <br>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                           <div class="clearfix"></div>
+                           <div class="hotel-info-details">
+                              <div class="box-header">
+                                 <h2 class="box-title text-yellow" style="padding: 0px 0px 0px 10px;">Hotel Info</h2>
+                              </div>
+                              <span class="col-lg-12">
+                              Operating a 24-hour front desk, Airport Hotel Mayank Residency is only a 5-minute drive from Indira Gandhi International Airport and a convenient 8-minute drive to Ambiance Mall. Free WiFi is available in the entire hotel, while complimentary private parking is provided.Furnished with a desk and seating area, air-conditioned rooms are equipped with a personal safe, a flat-screen satellite TV and a mini fridge. Private bathrooms come with a hairdryer, hot/cold shower facilities and free toiletries.Airport Hotel Mayank Residency provides luggage storage, currency exchange and laundry services. A tour desk and a business center are also available. Guests can rent a car to explore the area; alternatively, shuttle services can be arranged at extra charges.The hotel is 4.3 mi from the Business District of Gurgaon and 11 mi from New Delhi Railway Station. The famous India Gate is 9.9 mi while the Red Fort is 14 mi.
+                              </span>
+                              <div class="clearfix"></div>
+                              <div class="col-lg-4">
+                                 <h2 class="box-title text-yellow">Overview</h2>
+                                 <ul style="padding-left: 20px;line-height: 22px;">
+                                    <li>Number of floors (main building) (3)</li>
+                                    <li>Double rooms (25)</li>
+                                    <li>Total number of rooms (25)</li>
+                                    <li>NO Connecting rooms</li>
+                                    <li>Parking</li>
+                                    <li>TV</li>
+                                    <li>Internet</li>
+                                    <li>Adapted for disabled</li>
+                                    <li>Air conditioned</li>
+                                    <li>Bathroom</li>
+                                    <lip>
+                                    Shower</li>
+                                    <li>American Express</li>
+                                 </ul>
+                              </div>
+                              <div class="col-lg-4">
+                                 <h2 class="box-title text-yellow">Hotel Amenities</h2>
+                                 <ul style="padding-left: 20px;line-height: 22px;">
+                                    <li>5 (30000 meter)</li>
+                                    <li>4 (16500 meter)</li>
+                                    <li>3 (17100 meter)</li>
+                                    <li>1 (9500 meter)</li>
+                                    <li>2 (17500 meter)</li>
+                                    <li>Mobile phone coverage</li>
+                                    <li>Library</li>
+                                    <li>Room service</li>
+                                    <li>Laundry service</li>
+                                    <li>Medical service</li>
+                                    <li>24-hour reception</li>
+                                    <li>Hotel safe</li>
+                                 </ul>
+                              </div>
+                              <div class="col-lg-4">
+                                 <h2 class="box-title text-yellow">Room Amenities</h2>
+                                 <ul style="padding-left: 20px;line-height: 22px;">
+                                    <li>Extra beds on demand</li>
+                                    <li>Soundproof room</li>
+                                    <li>Internet access</li>
+                                    <li>Wi-fi</li>
+                                    <li>Wake-up service</li>
+                                    <li>Alarm clock</li>
+                                    <li>Toiletries</li>
+                                    <li>Cot on demand</li>
+                                    <li>220V power supply</li>
+                                    <li>Shower</li>
+                                    <li>TV</li>
+                                    <li>Desk</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                           <div class="col-md-12 fair-details">
+                              <h2>Payment Information</h2>
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <input name="flightpayment" type="radio" name="payment" id="Payment1" class=""  checked>
+                                    <label class="control-label">Full Payment</label>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <input name="flightpayment" type="radio" name="payment" id="Payment2" class="">
+                                    <label class="control-label">Partial Payment</label>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <input name="flightpayment" type="radio" name="payment" id="Payment3"  class="">
+                                    <label class="control-label">Paid Payment</label>
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                              <div class="booking-radio">
+                                 <div id="div1" style="display:none;">
+                                    <div class="col-lg-3">
+                                       <div class="form-group">
+                                          <label class="control-label">Due Date</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                       <div class="form-group">
+                                          <label class=" control-label">Payment Method<span class="text-danger">*</span></label>
+                                          <select name="" id="" class="form-control">
+                                             <option value="">--Select--</option>
+                                             <option value="2">PDQ Machine Credit / Debit Card</option>
+                                             <option value="3">Online Payment Link</option>
+                                             <option value="4">Bank Transfer</option>
+                                             <option value="5">Cash</option>
+                                             <option value="6">World Pay Mail Order</option>
+                                             <option value="7">Cash</option>
+                                             <option value="8">Card</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                       <br>
+                                       <button class="success btn btn-primary quote-updatebtn">Update</button>
+                                    </div>
+                                 </div>
+                                 <div id="div2" style="display:none;">
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Deposit amount*</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="Deposit amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Deposit Date</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount*</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="Balance Amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount Due Date</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class=" control-label">Payment Method<span class="text-danger">*</span></label>
+                                          <select name="" id="" class="form-control">
+                                             <option value="">--Select--</option>
+                                             <option value="2">PDQ Machine Credit / Debit Card</option>
+                                             <option value="3">Online Payment Link</option>
+                                             <option value="4">Bank Transfer</option>
+                                             <option value="5">Cash</option>
+                                             <option value="6">World Pay Mail Order</option>
+                                             <option value="7">Cash</option>
+                                             <option value="8">Card</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="div3" style="display:none;">
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Paid amount*</label><br>
+                                          <input name="Paidamount" type="text" id="txtpay_paidamount" class="form-control" placeholder="Paid amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Paid Date</label><br>
+                                          <input name="PaidDate" type="text" id="txtpay_Paiddate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class=" control-label">Payment Method<span class="text-danger">*</span></label>
+                                          <select name="" id="" class="form-control">
+                                             <option value="">--Select--</option>
+                                             <option value="2">PDQ Machine Credit / Debit Card</option>
+                                             <option value="3">Online Payment Link</option>
+                                             <option value="4">Bank Transfer</option>
+                                             <option value="5">Cash</option>
+                                             <option value="6">World Pay Mail Order</option>
+                                             <option value="7">Cash</option>
+                                             <option value="8">Card</option>
+                                             <option value="8">Card</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Branch Name*</label><br>
+                                          <input name="Branch" type="text" id="txtpay_Branch" class="form-control" placeholder="Branch name">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Auth Code*</label><br>
+                                          <input name="AuthCode" type="text" id="txtpay_AuthCode" class="form-control" placeholder="Auth Code">
+                                       </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Term1 Balance Amount*</label><br>
+                                          <input name="BalanceAmount" type="text" id="txtpay_BalanceAmount" class="form-control" placeholder="Balance Amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount Due Date*</label><br>
+                                          <input name="Balancedate" type="text" id="txtpay_Balancedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Term2 Balance Amount*</label><br>
+                                          <input name="BalanceAmount1" type="text" id="txtpay_BalanceAmount1" class="form-control" placeholder="Balance Amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount Due Date*</label><br>
+                                          <input name="Balancedate" type="text" id="txtpay_Balancedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12" style="padding: 0px 0px 0px 0px;">
+                                 <table class="table table-striped quote-table">
+                                    <thead>
+                                       <tr>
+                                          <th>Payment Method</th>
+                                          <th>Payment Gateway</th>
+                                          <th>Transaction ID</th>
+                                          <th>CardType</th>
+                                          <th>Auth Code</th>
+                                          <th>Total Amount( £)</th>
+                                          <th>Received Date</th>
+                                          <th>Penguin status</th>
+                                          <th>Action</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>Cash</td>
+                                          <td> - </td>
+                                          <td>23456</td>
+                                          <td>Mastercard Credit</td>
+                                          <td>567</td>
+                                          <td>8767</td>
+                                          <td>19-Feb-2020</td>
+                                          <td> - </td>
+                                          <td class="action-btn" id="quote-edit">
+                                             <i class="material-icons action-edit1">create</i>
+                                             <!--<i class="material-icons quotation-dtls">drafts</i>
+                                                <i class="material-icons quotation-delete">close</i>-->
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                           <div class="box-body" style="" id="pass_details">
+                              <div class="col-md-12 fair-details">
+                                 <h2>Passenger Information</h2>
+                                 <div class="form-group col-lg-1">
+                                    <label>Title</label>
+                                    <select class="form-control"  id="ddlTitle583" name="TravellerInformation[0].Title">
+                                       <option value="">-- Select --</option>
+                                       <option selected="selected" value="Mr">Mr</option>
+                                       <option value="Mrs">Mrs</option>
+                                       <option value="Miss">Miss</option>
+                                       <option value="Dr">Dr</option>
+                                       <option value="Master">Master</option>
+                                       <option value="Rev">Rev</option>
+                                    </select>
+                                    <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].Title" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <div class="form-group col-lg-2">
+                                    <label>First Name</label>
+                                    <input class="form-control"  id="txtFirstName583" maxlength="100" name="TravellerInformation[0].FirstName" onkeyup="fnValidCharactor(this,4);" placeholder="First Name" type="text" value="Kishore">
+                                    <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].FirstName" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <div class="form-group col-lg-2">
+                                    <label>Last Name</label>
+                                    <input class="form-control"  id="txtLastName583" maxlength="100" name="TravellerInformation[0].Surname" onkeyup="fnValidCharactor(this,4);" placeholder="Last Name" type="text" value="masapalli">
+                                    <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].Surname" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <div class="form-group col-lg-2">
+                                    <label>Gender</label>
+                                    <select class="form-control"  id="ddlGender583" name="TravellerInformation[0].Gender" placeholder="Gender">
+                                       <option selected="selected" value="M">Male</option>
+                                       <option value="F">Female</option>
+                                    </select>
+                                    <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].Gender" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <div class="form-group col-lg-2">
+                                    <label>DOB</label>
+                                    <div class="input-group">
+                                       <div class="input-group-addon">
+                                          <i class="fa fa-calendar"></i>
+                                       </div>
+                                       <input class="form-control datepicker"  id="txtDOB583" name="TravellerInformation[0].DateofBirth" placeholder="dd/mm/yyyy" type="text" value="17/02/1998">
+                                       <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].DateofBirth" data-valmsg-replace="true"></span>
+                                    </div>
+                                 </div>
+                                 <div class="form-group col-lg-3">
+                                    <label>Email</label>
+                                    <input autocomplete="off" class="form-control"  id="txtEmail583" maxlength="75" name="TravellerInformation[0].Email" oncopy="return false" onkeyup="fnEditProfileInvalidChar(this,2);" onpaste="return false" placeholder="Email" type="text" value="yuvakishore.masapalli@lycafly.com">
+                                    <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].Email" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <div class="form-group col-lg-1">
+                                    <label>PaxType</label>
+                                    <select class="form-control"  id="ddlPaxtype583" name="TravellerInformation[0].Paxtype">
+                                       <option selected="selected" value="1">ADT</option>
+                                       <option value="2">CHD</option>
+                                       <option value="3">SNR</option>
+                                       <option value="4">INF</option>
+                                       <option value="5">Youth</option>
+                                    </select>
+                                    <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].Paxtype" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <div class="form-group col-lg-1">
+                                    <label>Room #</label>
+                                    <input class="form-control"  id="ddlRoomNo583" name="TravellerInformation[0].RoomNo" placeholder="RoomNo" type="text" value="1">
+                                    <span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].RoomNo" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <div class="form-group col-lg-2">
+                                    <label>E-ticket No</label>
+                                    <input class="form-control" id="txtEticketNo583" name="TravellerInformation[0].TicketNo" placeholder="EticketNo" type="text" value=""><span class="field-validation-valid" data-valmsg-for="TravellerInformation[0].TicketNo" data-valmsg-replace="true"></span>                            
+                                 </div>
+                                 <div class="col-lg-2">
+                                    <label>&nbsp;</label><br>
+                                    <button type="submit" class="btn btn-flat btn-success" onclick="UpdatePax(583);" id="BtnUpdate 0" value="583">Update</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-quote" role="tabpanel" aria-labelledby="nav-about-tab">
+                           <div class="col-md-12 expiredetails">
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <label class="control-label">Quoted Expiry Date<span class="text-danger">*</span></label>
+                                    <input name="ExpiryDate" type="text" maxlength="25" id="ExpiryDate" class="form-control" placeholder="dd/mm/yyyy" value="19/02/2020">
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <label class="control-label">&nbsp;</label><br>
+                                    <input name="quotedPrice" type="radio" name="quoted" id="withoutquotedPrice" checked class="">
+                                    <label class="control-label">Without Quoted Price</label>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <label class="control-label">&nbsp;</label><br>
+                                    <input name="quotedPrice" type="radio" name="quoted" id="quotedPrice" checked class="">
+                                    <label class="control-label">With Quoted Price</label>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <label class="control-label">&nbsp;</label><br>
+                                    <input name="SendQuotation" type="checkbox" id="sendQuotation"  class="">
+                                    <label class="control-label">Send Quotation to Customer</label>
+                                 </div>
+                              </div>
+                              <div class="col-lg-3">
+                                 <div class="form-group">
+                                    <label class="control-label">&nbsp;</label><br>
+                                    <input name="SendQuotation" type="checkbox" id="sendQuotation" class="">
+                                    <label class="control-label">Auto booking</label>
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                              <div class="col-lg-6">
+                                 <div class="form-group">
+                                    <label class="control-label">Cancellation Before Departure<span class="text-danger">*</span></label>
+                                    <input name="cancelQuotation" type="text"  id="cancelQuotation" class="form-control" placeholder="No Refund. // GBP Cancellation Fees applies Per person if cancelled 48 hours prior to departure">
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="form-group">
+                                    <label class="control-label">Cancellation After Departure<span class="text-danger">*</span></label>
+                                    <input name="Cancellation After Departure" type="text" id="cancelAfterQuotation" class="form-control" placeholder="No Refund. // GBP Cancellation Fees applies Per person if cancelled 48 hours after departure.">
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="form-group">
+                                    <label class="control-label">Date Changes Before Departure <span class="text-danger">*</span></label>
+                                    <input name="dateChangeBefore" type="text"  id="dateChangeBefore" class="form-control" placeholder="Not Permitted // GBP penalty charges will apply Per person + Difference in the fare if any . All Changes are subject to availability.">
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="form-group">
+                                    <label class="control-label">Date Changes After Departure <span class="text-danger">*</span></label>
+                                    <input name="dateChangeAfter" type="text" id="dateChangeAfter" class="form-control" placeholder="Not Permitted // GBP penalty charges will apply Per person + Difference in the fare if any . All Changes are subject to availability.">
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="form-group">
+                                    <label class="control-label">No Show<span class="text-danger">*</span></label>
+                                    <input name="noRefunds" type="text"  id="noRefunds" class="form-control" placeholder="No Refunds">
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="form-group">
+                                    <label class="control-label">Remarks <span class="text-danger">*</span></label>
+                                    <textarea class="form-control" rows="2" id="comment"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-remarks" role="tabpanel" aria-labelledby="nav-about-tab">
+                           <div class="col-lg-12 fair-details">
+                              <div class="box box-warning">
+                                 <div class="box-body">
+                                    <div id="lblconform"></div>
+                                    <div id="lblvalidateRemarks"></div>
+                                    <div class="form-group col-lg-12" style="padding-top: 10px;">
+                                       <label class="">Admin User :</label>
+                                       <label class="" id="lblAgentName">sadmin</label>
+                                    </div>
+                                    <br>
+                                    <div class="form-group col-lg-12">
+                                       <label class="col-lg-12">Remarks :</label>
+                                       <div class=" col-lg-7">
+                                          <textarea class="form-control" cols="20" id="txtRemarksTest" name="objBookingRemarks.Remarks" rows="2"></textarea>
+                                       </div>
+                                       <div class=" col-lg-12" style="margin-bottom:15px; margin-top:15px;">
+                                          <button type="submit" class="btn btn-success" id="BtnSaveRemarks">save</button>
+                                          <button type="button" class="btn btn-danger" id="BtnResetRemarks">Reset</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Save</button>
+               </div>
+            </div>
+         </div>
+      </div>
+	  
+			<div class="modal fade bd-example-modal-lg1 email-quote-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+				<div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Package Quotation</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                  </button>
+               </div>
+			   <div class="modal-body">
+      <div class="email-quotation">
+         <div>
+           <p> Hi MR Naveen,</p>
+            <p> Thank you for choosing LycaFly for your bookings. </p>
+             <p>As discussed, please find attached the detailed itinerary of your travel. It is important that you read the details carefully and confirm that all information such as names of the passenger(s), flight details, fare etc are correct and in order. </p>
+            <p> To allow us to proceed further with the booking please REPLY ALL TO THIS EMAIL confirming that all the information is correct and as per your requirement. Since the fares may change on an ongoing basis and are not guaranteed unless booked, we recommend that you send your approval as soon as possible.</p>
+            <p> Although, we believe that this meets your requirement, please feel free to contact us @ 02071323232 if anything needs to be amended or added.</p>
+             <p>Please find your itinerary details in the below quotation .</p>
+         </div>
+         <br>
+         <table class="mb-0 table table-striped table-bordered email-quote">
+            <thead>
+               <tr >
+                  <th>Quotation Ref#</th>
+                  <th>PNR</th>
+                  <th>No of Passengers</th>
+                  <th>Sales Agent</th>
+                  <th>Contact Number</th>
+                  <th>Email</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td id="Quatationid">LFQ-10196</td>
+                  <td>QEPILD</td>
+                  <td>2 Adults</td>
+                  <td>sadmin</td>
+                  <td>65867987987099</td>
+                  <td>asa@as.com</td>
+               </tr>
+            </tbody>
+         </table>
+         <h2>Traveler Details</h2>
+         <table class="mb-0 table table-striped table-bordered email-quote">
+            <thead>
+               <tr >
+                  <th>Title</th>
+                  <th>First Name</th>
+                  <th>Surname</th>
+                  <th>Type</th>
+                  <th>Date of Birth</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>MR</td>
+                  <td>EREWR</td>
+                  <td>ETRE</td>
+                  <td>Adult</td>
+                  <td>03-03-2004</td>
+               </tr>
+               <tr>
+                  <td>MRS</td>
+                  <td>FDFGDG</td>
+                  <td>DGRET</td>
+                  <td>Adult</td>
+                  <td>04-03-2004</td>
+               </tr>
+            </tbody>
+         </table>
+         <h2>Flight Details</h2>
+         <table class="mb-0 table table-striped table-bordered email-quote">
+            <thead>
+               <tr >
+                  <th>Departure</th>
+                  <th>Arrival</th>
+                  <th>Airlines</th>
+                  <th>Baggage Allowance</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>London (LHR), United Kingdom, London Heathrow<br>Terminal 4<br>3/11/2020 08:25</td>
+                  <td>Muscat (MCT), Oman, Muscat International<br>-<br>3/11/2020 19:35</td>
+                  <td>
+                     Oman Air(WY)-104<br>
+                     <p style="color: #8f0222;font-size: 14px; font-weight: bold;">Operated by Oman Air(WY)</p>
+                  </td>
+                  <td>Adult: 30K</td>
+               </tr>
+               <tr>
+                  <td>Muscat (MCT), Oman, Muscat International<br>-<br>3/12/2020 01:30</td>
+                  <td>Chennai (MAA), India<br>-<br>3/12/2020 06:30</td>
+                  <td>
+                     Oman Air(WY)-251<br>
+                     <p style="color: #8f0222;font-size: 14px; font-weight: bold;">Operated by Oman Air(WY)</p>
+                  </td>
+                  <td>Adult: 30K</td>
+               </tr>
+               <tr>
+                  <td>Chennai (MAA), India<br>-<br>3/14/2020 15:00</td>
+                  <td>Muscat (MCT), Oman, Muscat International<br>-<br>3/14/2020 17:35</td>
+                  <td>
+                     Oman Air(WY)-254<br>
+                     <p style="color: #8f0222;font-size: 14px; font-weight: bold;">Operated by Oman Air(WY)</p>
+                  </td>
+                  <td>Adult: 30K</td>
+               </tr>
+               <tr>
+                  <td>Muscat (MCT), Oman, Muscat International<br>-<br>3/15/2020 02:10</td>
+                  <td>London (LHR), United Kingdom, London Heathrow<br>Terminal 4<br>3/15/2020 05:55</td>
+                  <td>
+                     Oman Air(WY)-103<br>
+                     <p style="color: #8f0222;font-size: 14px; font-weight: bold;">Operated by Oman Air(WY)</p>
+                  </td>
+                  <td>Adult: 30K</td>
+               </tr>
+            </tbody>
+         </table>
+
+         <div>
+         <h2>Hotel Details</h2>
+		 <table class="mb-0 table table-striped table-bordered email-quote">
+               <thead>
+                  <tr >
+                     <th>Hotel Name</th>
+                     <th>Check In/Out Date</th>
+                     <th>Room Type </th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>OYO 25047 Krd Lodge(2 STARS)
+                        <br>
+                        KRD Lodge, Near RS Bhavan, Janappanchatram Cross R 
+                        <br>
+                        Phone: +919313931393', +919313931393'<br>
+                        Email: oyohotels@oyorooms.com
+                     </td>
+                     <td>Check-In :11/03/2020 
+                        <br>
+                        Check-Out : 14/03/2020 
+                     </td>
+                     <td>Night(s) : 3
+                        <br>
+                        Room(s) :1
+                        <br>
+                        Total Guest : 2 Adults
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            <h2>Room Details</h2>
+            <table class="mb-0 table table-striped table-bordered email-quote">
+               <thead>
+                  <tr >
+                     <th>Room</th>
+                     <th>Room Type</th>
+                     <th>Board Type</th>
+                     <th tyle="min-width: 200px;">Adult</th>
+                     <th tyle="min-width: 150px;">Child</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>1</td>
+                     <td>Double Standard</td>
+                     <td>Room Only</td>
+                     <td>2</td>
+                     <td>0</td>
+                  </tr>
+               </tbody>
+            </table>
+            <h2>Hotel Description</h2>
+            <div>This simple hotel can be found in Ponneri. % star Hotel</div>
+
+            <div class="row">
+               <div class="col-md-6">
+                  <div id="quoFare">
+                     <h2>Fare Details</h2>
+                     <table class="mb-0 table table-striped table-bordered email-quote">
+                        <thead>
+                           <tr >
+                              <th>No</th>
+                              <th> Package </th>
+                              <th>Payment Amount(GBP)</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>1</td>
+                              <td>Hotel</td>
+                              <td id="QuopayHotel">41.04</td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td>Flight</td>
+                              <td id="QuopayFlight">890.34</td>
+                           </tr>
+                           <tr>
+                              <td></td>
+                              <td>Total</td>
+                              <td id="QuopayTotal">931.38</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+			<br>
+            <div class="impnote">
+              <p> <b>Important note</b>
+               The above price quotation is correct at the time this email communication was sent to you. Be aware that prices and availability change very frequently and such changes are beyond the control of LycaFly. Your payment of the above amount does not necessarily guarantee your chosen itinerary will still be available, or at the shown price. Where prices have changed or the chosen itinerary is no longer available, customers may accept the increase and pay the difference or choose to refund their payment.
+             </p>
+			  <p>
+               Be aware that all quotations, orders and bookings are subject to our terms of business, available at <a href="https://www.lycafly.com/terms-and-conditions">www.lycafly.com/terms-and-conditions</a>. </p>
+               <p> A. We strongly advise you to be at the airport by 3 hours prior to the designated departure time for International flights and 2 hours prior for domestic flights. </p>
+                <p>B. Kindly contact us 72 hours before departure to check that your flight itinerary is as per booked by yourself and timing is planned to depart according to schedule. Once your journey has started please re-confirm the schedule of your return flight by calling the local office of your airline.
+               <br><b style="color: #3c4a92;">Safety and Suitability of Travel</b> </p>
+                <p>As detailed in our <a href="https://www.lycafly.com/terms-and-conditions">terms and conditions</a>, please check that you have up to date travel advice for your chosen destination before confirming your booking. Up to date travel advice can be obtained by visiting the Foreign and Commonwealth Office (FCO) website at <a href="https://www.gov.uk/foreign-travel-advice">https://www.gov.uk/foreign-travel-advice</a>. </p>
+            </div>
+            <div id="divPenalty" class="pen">
+               <p><b><u>Conditions of the Ticket</u></b></p>
+               <p><b>Date Changes Before Departure  :</b> Not Permitted </p>
+               <p><b>Date Changes After Departure :</b> Not Permitted  </p>
+               <p><b>Cancellation Before Departure :</b> No Refunds </p>
+               <p><b>Cancellation After Departure :</b> No Refunds  </p>
+               <p> <b>No Show :</b> No Refunds</p>
+            </div>
+         </div>
+         <div class="text-right">
+            <p class="voucher_txt_gray">Warm regards, <br> <strong>Lycafly Team.</strong></p>
+         </div>
+		  <div class="text-center">
+		 <button type="button" id="btnSendmail" class="btn btn-primary btn-flat">Send Mail</button>
+		 </div>
+      </div>
+	  </div>
+   </div>
+				</div>
+			  </div>
+			</div>
+
+
+			<div class="modal fade cancelquation" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body text-center">
+				    <p class="text-center">Do you want to cancel this Quotation?</p>
+					 <button type="button" class="btn btn-secondary">Yes</button>
+					<button type="button" class="btn btn-primary">No</button>
+				  </div>
+				  
+				</div>
+			  </div>
+			</div>	
+
+		
+			
+			<div class="modal fade remark-quotation" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+				  <h5 class="modal-title" id="exampleModalLongTitle">Remarks</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body text-center">
+				   <div id="divRema" class="booking-detail">
+						<ul class="timeline">
+								<li>
+									<i class="fa fa-comments bg-yellow"></i>
+									<div class="timeline-item">
+										<h3 class="timeline-header text-left">
+										 <span class="remark-name"><a>Viji</a></span>
+										 <span class="remark-time"><i class="fa fa-clock-o"></i>20/02/2020 10:46:50</span>
+										</h3>
+										<div class="timeline-body">
+											Cancel
+										</div>
+									</div>
+								</li>
+								<li>
+									<i class="fa fa-comments bg-yellow"></i>
+									<div class="timeline-item">
+										<h3 class="timeline-header text-left">
+										 <span class="remark-name"><a>Mahi</a></span>
+										 <span class="remark-time"><i class="fa fa-clock-o"></i>19/02/2020 11:10:50</span>
+										</h3>
+										<div class="timeline-body">
+											Cancel
+										</div>
+									</div>
+								</li>
+
+						</ul>
+				</div>
+				  </div>
+				  
+				</div>
+			  </div>
+			</div>	
+			 
+			 <div class="modal fade move-quotation" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+				    <h5 class="modal-title" id="exampleModalLongTitle">Remarks</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+				     <textarea id="remarktxt" rows="3" cols="75"></textarea><br>
+					 <button type="button" class="btn btn-secondary pull-left">Yes</button>
+					<button type="button" class="btn btn-primary pull-right">No</button>
+				  </div>
+				  
+				</div>
+			  </div>
+			</div>	
+			
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.2/js/toastr.min.js"></script>
+      <script src="./bootstrap.min.js"></script>
+      <script src="./owl.carousel.min.js"></script>
+      <script src="./custom.js"></script>
+      <script>
+         $('.owl-carousel').owlCarousel({
+         loop:true,
+         margin:10,
+         nav:true,
+         navText:false,
+         responsive:{
+         0:{
+            items:1
+         },
+         600:{
+            items:1
+         },
+         1000:{
+            items:1
+         }
+         }
+         })	
+      </script>
+      <script type="text/javascript" src="./assets/scripts/main.js"></script>
+      <script language="JavaScript">
+         $(document).ready(function() {
+          $('.lab-slide-up').find('a').attr('data-toggle', 'modal');
+          $('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
+          });
+      </script>
+      <script type="text/javascript">
+         function showHideDiv(ele) {
+         	var srcElement = document.getElementById(ele);
+         	if (srcElement != null) {
+         		if (srcElement.style.display == "block") {
+         			srcElement.style.display = 'none';
+         		}
+         		else {
+         			srcElement.style.display = 'block';
+         		}
+         		return false;
+         	}
+         }
+         $('.top').on('click', function() {
+         	$parent_box = $(this).closest('.box');
+         	$parent_box.siblings().find('.bottom').slideUp();
+         	$parent_box.find('.bottom').slideToggle(1000, 'swing');
+         });
+      </script>
+      <script>
+         $(document).ready(function(){
+           $("#tab-pending").click(function(){
+         
+         $("#always").show();
+           });
+           
+         });
+      </script>
+      <script>
+         $("input:checkbox:not(:checked)").each(function() {
+         var column = "table ." + $(this).attr("name");
+         $(column).hide();
+         });
+         
+         $("input:checkbox").click(function(){
+         var column = "table ." + $(this).attr("name");
+         $(column).toggle();
+         });
+         
+         $(".action-edit").click(function(){
+         
+         $("#nav-home-tab").click();
+         
+         
+         });
+         
+          
+      </script>
+      <script type="text/javascript">
+         $(".success").click(function(){
+         	toastr.success('Updated Successfully', {timeOut: 5000})
+         });
+         
+         /*
+         $(".error").click(function(){
+         	toastr.error('You Got Error', 'Inconceivable!', {timeOut: 5000})
+         });
+         
+         
+         $(".info").click(function(){
+         	toastr.info('It is for your kind information', 'Information', {timeOut: 5000})
+         });
+         
+         
+         $(".warning").click(function(){
+         	toastr.warning('It is for your kind warning', 'Warning', {timeOut: 5000})
+         });*/
+      </script>
+   </body>
+</html>
+
+
+

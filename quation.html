@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Language" content="en">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Lycafly</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+      <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+      <meta name="msapplication-tap-highlight" content="no">
+      <link href="./main.css" rel="stylesheet">
+      <link rel="stylesheet" href="./bootstrap.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./owl.carousel.css">
+   </head>
+   <body>
+      <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar" id="sidebar-navigation">
+         <div class="app-header header-shadow">
+            <div class="app-header__logo">
+               <div class="logo-src">
+                  <img src="assets/images/logo-inverse.png">
+               </div>
+               <div class="header__pane ml-auto">
+                  <div>
+                     <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="app-header__mobile-menu">
+               <div>
+                  <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                  <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                  </span>
+                  </button>
+               </div>
+            </div>
+            <div class="app-header__menu">
+               <span>
+               <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+               <span class="btn-icon-wrapper">
+               <i class="fa fa-ellipsis-v fa-w-6"></i>
+               </span>
+               </button>
+               </span>
+            </div>
+            <div class="app-header__content">
+               <div class="app-header-left">
+                  <ul class="header-menu nav">
+                     <li class="nav-item">
+                        <a href="home.html" class="nav-link">
+                        <i class="material-icons">flight</i>Fight
+                        </a>
+                     </li>
+                     <li class="btn-group nav-item">
+                        <a href="home-hotel.html" class="nav-link">
+                        <i class="material-icons">location_city</i> Hotel
+                        </a>
+                     </li>
+                     <li class="dropdown nav-item">
+                        <a href="home-fh.html" class="nav-link">
+                        <i class="material-icons">flight</i>  <i class="material-icons">location_city</i>
+                        Flight + hotel
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="app-header-right">
+                  <div class="header-btn-lg pr-0">
+                     <div class="widget-content p-0">
+                        <div class="widget-content-wrapper">
+                           <div class="widget-content-left">
+                              <div class="btn-group">
+                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                 <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                 <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                 </a>
+                                 <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                    <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Change password</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Log out</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="widget-content-left  ml-3 header-user-info">
+                              <div class="widget-heading">
+                                 Janaka Rajarathne
+                              </div>
+                              <div class="widget-subheading">
+                                 Sales Manager
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+               <div class="app-header__logo">
+                  <div class="logo-src"></div>
+                  <div class="header__pane ml-auto">
+                     <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="app-header__mobile-menu">
+                  <div>
+                     <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+               <div class="app-header__menu">
+                  <span>
+                  <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                  <span class="btn-icon-wrapper">
+                  <i class="fa fa-ellipsis-v fa-w-6"></i>
+                  </span>
+                  </button>
+                  </span>
+               </div>
+               <div class="scrollbar-sidebar">
+                  <div class="app-sidebar__inner">
+                     <ul class="vertical-nav-menu my-quotes-dtls">
+                        <li class="app-sidebar__heading">Quotation</li>
+                        <li class="">
+                           <a href="#">
+                           <i class="metismenu-icon pe-7s-note2"></i>
+                           My Quotes <span class="badge badge-pill badge-warning">2</span>
+                           <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                           </a>
+                           <ul>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon"></i>
+                                 Success
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon">
+                                 </i>Pending Quotation
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="tourapproval.html">
+                           <i class="metismenu-icon pe-7s-car"></i>
+                           Tour Approval<span class="badge badge-pill badge-danger">3</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="qcpending.html">
+                           <i class="metismenu-icon pe-7s-display2"></i>
+                           QC Pending<span class="badge badge-pill badge-success">9</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="ticketed.html">
+                           <i class="metismenu-icon pe-7s-copy-file"></i>
+                           Ticketed<span class="badge badge-pill badge-primary">6</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="vertical-nav-menu">
+                        <li class="app-sidebar__heading">User Info</li>
+                        <li>
+                           <a href="Edit-profile.html">
+                           <i class="metismenu-icon pe-7s-user"></i>
+                           Edit profile
+                           </a>
+                        </li>
+                        <li>
+                           <a href="agentuser.html">
+                           <i class="metismenu-icon pe-7s-users"></i>
+                           Agent User
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="app-main__outer">
+               <div class="app-main__inner">
+                  <div class="page-header-sec">
+                     <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                           <div class="page-title-heading">
+                              <div class="page-title-icon">
+                                 <i class="pe-7s-display1 icon-gradient bg-premium-dark">
+                                 </i>
+                              </div>
+                              <div>
+                                 Quotation Information
+                                 <div class="page-title-subheading"> All Airlines, Economy
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <section class="QuotedOrders">
+                     <div class="container">
+                        <div class="col-md-12 fair-details" style="padding: 0px 0px 0px 0px;">
+                           <h2>Flight Details</h2>
+                           <table class="table table-striped">
+                              <thead>
+                                 <tr>
+                                    <th>Departure</th>
+                                    <th>Departure date</th>
+                                    <th>Arrival</th>
+                                    <th>Arrival date</th>
+                                    <th>Flight</th>
+                                    <th>Terminal</th>
+                                    <th>Airlines</th>
+                                    <th>Baggage</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>London(LHR)</td>
+                                    <td>Thu, 20 Feb 2020, 15:20</td>
+                                    <td>Chennai(MAA)</td>
+                                    <td>Tue, 23 Feb 2020, 12:00</td>
+                                    <td>8</td>
+                                    <td>Terminal 4</td>
+                                    <td>Qatar airlines(operated by qatar airways)</td>
+                                    <td>Adult:30Kgs</td>
+                                 </tr>
+                                 <tr>
+                                    <td>London(LHR)</td>
+                                    <td>Thu, 20 Feb 2020, 15:20</td>
+                                    <td>Chennai(MAA)</td>
+                                    <td>Tue, 23 Feb 2020, 12:00</td>
+                                    <td>8</td>
+                                    <td>Terminal 4</td>
+                                    <td>Qatar airlines(operated by qatar airways)</td>
+                                    <td>Adult:30Kgs</td>
+                                 </tr>
+                                 <tr>
+                                    <td>London(LHR)</td>
+                                    <td>Thu, 20 Feb 2020, 15:20</td>
+                                    <td>Chennai(MAA)</td>
+                                    <td>Tue, 23 Feb 2020, 12:00</td>
+                                    <td>8</td>
+                                    <td>Terminal 4</td>
+                                    <td>Qatar airlines(operated by qatar airways)</td>
+                                    <td>Adult:30Kgs</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                        <div class="col-md-12 fair-details" style="padding: 0px 0px 0px 0px;">
+                           <h2>Hotel Details</h2>
+                           <table class="table table-striped hotel-detail-table" style="width:100%">
+                              <thead>
+                                 <tr>
+                                    <th>Hotel name</th>
+                                    <th>Check in/Out Date</th>
+                                    <th>Particulars</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>Eros by hilton, Nehru palace, <br>
+                                       new delhi - 100034, <br>
+                                       phno: 21239493843, <br>
+                                       email:nehrupalace@hilton.com
+                                    </td>
+                                    <td>Check-In: Wed, 03 Oct 2019<br>
+                                       Check-Out: Wed, 03 Oct 2019<br>
+                                    </td>
+                                    <td>Night(s) : 1 <br>
+                                       Room(s) : 1 <br>
+                                       Total guest : 2 <br>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                        <div class="col-md-12 fair-details">
+                           <h2>Payment Information</h2>
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <input name="flightpayment" type="radio" id="id_radio1" class="">
+                                 <label class="control-label">Full Payment</label>
+                              </div>
+                           </div>
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <input name="flightpayment" type="radio"  id="id_radio2" class="">
+                                 <label class="control-label">Partial Payment</label>
+                              </div>
+                           </div>
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <input name="flightpayment" type="radio"  id="id_radio3"  class="">
+                                 <label class="control-label">Paid Payment</label>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                           <div class="booking-radio">
+                              <div class="container">
+                                 <div id="div1">
+                                    <div class="col-lg-3">
+                                       <div class="form-group">
+                                          <label class="control-label">Due Date</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                       <div class="form-group">
+                                          <label class=" control-label">Payment Method<span class="text-danger">*</span></label>
+                                          <select name="" id="" class="form-control">
+                                             <option value="">--Select--</option>
+                                             <option value="2">PDQ Machine Credit / Debit Card</option>
+                                             <option value="3">Online Payment Link</option>
+                                             <option value="4">Bank Transfer</option>
+                                             <option value="5">Cash</option>
+                                             <option value="6">World Pay Mail Order</option>
+                                             <option value="7">Cash</option>
+                                             <option value="8">Card</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="div2" style="display:none;">
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Deposit amount*</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="Deposit amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Deposit Date</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount*</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="Balance Amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount Due Date</label><br>
+                                          <input name="duedate" type="text" id="txtpay_duedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class=" control-label">Payment Method<span class="text-danger">*</span></label>
+                                          <select name="" id="" class="form-control">
+                                             <option value="">--Select--</option>
+                                             <option value="2">PDQ Machine Credit / Debit Card</option>
+                                             <option value="3">Online Payment Link</option>
+                                             <option value="4">Bank Transfer</option>
+                                             <option value="5">Cash</option>
+                                             <option value="6">World Pay Mail Order</option>
+                                             <option value="7">Cash</option>
+                                             <option value="8">Card</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="div3" style="display:none;">
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Paid amount*</label><br>
+                                          <input name="Paidamount" type="text" id="txtpay_paidamount" class="form-control" placeholder="Paid amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Paid Date</label><br>
+                                          <input name="PaidDate" type="text" id="txtpay_Paiddate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class=" control-label">Payment Method<span class="text-danger">*</span></label>
+                                          <select name="" id="" class="form-control">
+                                             <option value="">--Select--</option>
+                                             <option value="2">PDQ Machine Credit / Debit Card</option>
+                                             <option value="3">Online Payment Link</option>
+                                             <option value="4">Bank Transfer</option>
+                                             <option value="5">Cash</option>
+                                             <option value="6">World Pay Mail Order</option>
+                                             <option value="7">Cash</option>
+                                             <option value="8">Card</option>
+                                             <option value="8">Card</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Branch Name*</label><br>
+                                          <input name="Branch" type="text" id="txtpay_Branch" class="form-control" placeholder="Branch name">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Auth Code*</label><br>
+                                          <input name="AuthCode" type="text" id="txtpay_AuthCode" class="form-control" placeholder="Auth Code">
+                                       </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Term1 Balance Amount*</label><br>
+                                          <input name="BalanceAmount" type="text" id="txtpay_BalanceAmount" class="form-control" placeholder="Balance Amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount Due Date*</label><br>
+                                          <input name="Balancedate" type="text" id="txtpay_Balancedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Term2 Balance Amount*</label><br>
+                                          <input name="BalanceAmount1" type="text" id="txtpay_BalanceAmount1" class="form-control" placeholder="Balance Amount">
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                       <div class="form-group">
+                                          <label class="control-label">Balance Amount Due Date*</label><br>
+                                          <input name="Balancedate" type="text" id="txtpay_Balancedate" class="form-control" placeholder="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-12 expiredetails">
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <label class="control-label">Quoted Expiry Date<span class="text-danger">*</span></label>
+                                 <input name="ExpiryDate" type="text" maxlength="25" id="ExpiryDate" class="form-control" placeholder="dd/mm/yyyy">
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <label class="control-label">&nbsp;</label><br>
+                                 <input name="quotedPrice" type="radio" id="withoutquotedPrice" class="">
+                                 <label class="control-label">Without Quoted Price</label>
+                              </div>
+                           </div>
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <label class="control-label">&nbsp;</label><br>
+                                 <input name="quotedPrice" type="radio" id="quotedPrice" class="">
+                                 <label class="control-label">With Quoted Price</label>
+                              </div>
+                           </div>
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <label class="control-label">&nbsp;</label><br>
+                                 <input name="SendQuotation" type="checkbox" id="sendQuotation" class="">
+                                 <label class="control-label">Send Quotation to Customer</label>
+                              </div>
+                           </div>
+                           <div class="col-lg-3">
+                              <div class="form-group">
+                                 <label class="control-label">&nbsp;</label><br>
+                                 <input name="SendQuotation" type="checkbox" id="sendQuotation" class="">
+                                 <label class="control-label">Auto booking</label>
+                              </div>
+                           </div>
+                           <div class="clearfix"></div>
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <label class="control-label">Cancellation Before Departure<span class="text-danger">*</span></label>
+                                 <input name="cancelQuotation" type="text"  id="cancelQuotation" class="form-control" placeholder="No Refund. // GBP Cancellation Fees applies Per person if cancelled 48 hours prior to departure">
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <label class="control-label">Cancellation After Departure<span class="text-danger">*</span></label>
+                                 <input name="Cancellation After Departure" type="text" id="cancelAfterQuotation" class="form-control" placeholder="No Refund. // GBP Cancellation Fees applies Per person if cancelled 48 hours after departure.">
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <label class="control-label">Date Changes Before Departure <span class="text-danger">*</span></label>
+                                 <input name="dateChangeBefore" type="text"  id="dateChangeBefore" class="form-control" placeholder="Not Permitted // GBP penalty charges will apply Per person + Difference in the fare if any . All Changes are subject to availability.">
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <label class="control-label">Date Changes After Departure <span class="text-danger">*</span></label>
+                                 <input name="dateChangeAfter" type="text" id="dateChangeAfter" class="form-control" placeholder="Not Permitted // GBP penalty charges will apply Per person + Difference in the fare if any . All Changes are subject to availability.">
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <label class="control-label">No Show<span class="text-danger">*</span></label>
+                                 <input name="noRefunds" type="text"  id="noRefunds" class="form-control" placeholder="No Refunds">
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="form-group">
+                                 <label class="control-label">Remarks <span class="text-danger">*</span></label>
+                                 <textarea class="form-control" rows="2" id="comment"></textarea>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="text-center btnsection">	
+                           <button class="btn btn-success" data-toggle="modal"  data-target="#exampleModalCenter">Create Quote</button>
+                        </div>
+                     </div>
+                  </section>
+               </div>
+               <div class="app-wrapper-footer">
+                  <div class="app-footer">
+                     <div class="app-footer__inner text-center">
+                        <p class="text-center">© 2020 lycafly, Inc, an lycafly Group Company. All rights reserved.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content Successfully">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body  text-center">
+                  <img src="img/success.png">
+                  <h2> Thank you<br>
+                 Your Submission is received</h2>
+				 <h3>Quoted Id : <span>10208</span></h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="./bootstrap.min.js"></script>
+      <script src="./owl.carousel.min.js"></script>
+      <script type="text/javascript" src="./assets/scripts/main.js"></script>
+      <script src="./custom.js"></script>
+      <script>   
+         $(document).ready(function () {
+             $('#deptDate').datepicker({
+                 numberOfMonths: 1,
+         showOn: "both",
+                 buttonImage: "./img/calender.png",
+                 buttonImage: "./img/calender.png",
+                 buttonImageOnly: true,
+                 minDate: 0,
+                 dateFormat: 'dd/mm/yy',
+                 maxDate: "+1y",
+                 onSelect: function (selectedDate) {
+                     var date = $(this).datepicker('getDate');
+                     $("#arrDate").datepicker("option", "minDate", selectedDate);
+         
+                 }
+             });
+             $("#arrDate").datepicker({
+                      numberOfMonths: 1,
+         showOn: "both",
+         buttonImage: "./img/calender.png",
+         buttonImageOnly: true,
+                      maxDate: "+1y",
+                      dateFormat: 'dd/mm/yy',
+                      onSelect: function (selectedDate) {
+                      $("#deptDate").datepicker("option", "maxDate")
+         
+                 }
+             });
+         });
+         
+         $(function () {
+             $("#Dob").datepicker({
+                 inline: true,
+                 dateFormat: 'dd/mm/yy',
+                 showOn: "both",
+                 buttonImage: "./img/calender.png",
+                 buttonImageOnly: true,
+                 minDate: new Date('1/31/1870 2:57:45 PM'),
+                 maxDate: new Date('1/31/2020 2:57:45 PM'),
+                 changeMonth: true, changeYear: true,
+                 yearRange: '1870 ' + ":" + '2020',
+                 onSelect: function (selectedDate) {
+                     $("#Dob").focus();
+                 }
+             });
+         });
+         
+         $(function () {
+             $("#txtpay_duedate").datepicker({
+                 inline: true,
+                 dateFormat: 'dd/mm/yy',
+         minDate: 0,
+         maxDate: "+1y",
+                 showOn: "both",
+                 buttonImage: "./img/calender.png",
+                 buttonImageOnly: true,
+                 changeMonth: true, changeYear: true,
+                 onSelect: function (selectedDate) {
+                     $("#txtpay_duedate").focus();
+                 }
+             });
+         });
+         $(function () {
+             $("#ExpiryDate").datepicker({
+                 inline: true,
+                 dateFormat: 'dd/mm/yy',
+         minDate: 0,
+         maxDate: "+15y",
+                 showOn: "both",
+                 buttonImage: "./img/calender.png",
+                 buttonImageOnly: true,
+                 changeMonth: true, changeYear: true,
+                 onSelect: function (selectedDate) {
+                     $("#ExpiryDate").focus();
+                 }
+             });
+         });
+         $(function () {
+             $("#expDate").datepicker({
+                 inline: true,
+                 dateFormat: 'dd/mm/yy',
+         minDate: 0,
+         maxDate: "+15y",
+                 showOn: "both",
+                 buttonImage: "./img/calender.png",
+                 buttonImageOnly: true,
+                 changeMonth: true, changeYear: true,
+                 onSelect: function (selectedDate) {
+                     $("#expDate").focus();
+                 }
+             });
+         });
+         $(document).ready(function(){
+         $("#id_radio1").click(function(){
+         $("#div1").show();
+         $("#div2").hide();
+         $("#div3").hide();
+         });
+         $("#id_radio2").click(function(){
+         $("#div2").show();
+         $("#div1").hide();
+         $("#div3").hide();
+         });
+         $("#id_radio3").click(function(){
+         $("#div3").show();
+         $("#div1").hide();
+         $("#div2").hide();
+         });
+         });	
+      </script>
+	  
+   </body>
+</html>

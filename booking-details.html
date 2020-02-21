@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Language" content="en">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Lycafly</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+      <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+      <meta name="msapplication-tap-highlight" content="no">
+      <link href="./main.css" rel="stylesheet">
+      <link rel="stylesheet" href="./bootstrap.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./owl.carousel.css">
+   </head>
+   <body>
+      <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar" id="sidebar-navigation">
+         <div class="app-header header-shadow">
+            <div class="app-header__logo">
+               <div class="logo-src">
+                  <img src="assets/images/logo-inverse.png">
+               </div>
+               <div class="header__pane ml-auto">
+                  <div>
+                     <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="app-header__mobile-menu">
+               <div>
+                  <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                  <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                  </span>
+                  </button>
+               </div>
+            </div>
+            <div class="app-header__menu">
+               <span>
+               <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+               <span class="btn-icon-wrapper">
+               <i class="fa fa-ellipsis-v fa-w-6"></i>
+               </span>
+               </button>
+               </span>
+            </div>
+            <div class="app-header__content">
+               <div class="app-header-left">
+                  <ul class="header-menu nav">
+                     <li class="nav-item">
+                        <a href="home.html" class="nav-link">
+                        <i class="material-icons">flight</i>Fight
+                        </a>
+                     </li>
+                     <li class="btn-group nav-item">
+                        <a href="home-hotel.html" class="nav-link">
+                        <i class="material-icons">location_city</i> Hotel
+                        </a>
+                     </li>
+                     <li class="dropdown nav-item">
+                        <a href="home-fh.html" class="nav-link">
+                        <i class="material-icons">flight</i>  <i class="material-icons">location_city</i>
+                        Flight + hotel
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="app-header-right">
+                  <div class="header-btn-lg pr-0">
+                     <div class="widget-content p-0">
+                        <div class="widget-content-wrapper">
+                           <div class="widget-content-left">
+                              <div class="btn-group">
+                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                 <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                 <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                 </a>
+                                 <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                    <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Change password</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Log out</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="widget-content-left  ml-3 header-user-info">
+                              <div class="widget-heading">
+                                 Janaka Rajarathne
+                              </div>
+                              <div class="widget-subheading">
+                                 Sales Manager
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+               <div class="app-header__logo">
+                  <div class="logo-src"></div>
+                  <div class="header__pane ml-auto">
+                     <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="app-header__mobile-menu">
+                  <div>
+                     <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+               <div class="app-header__menu">
+                  <span>
+                  <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                  <span class="btn-icon-wrapper">
+                  <i class="fa fa-ellipsis-v fa-w-6"></i>
+                  </span>
+                  </button>
+                  </span>
+               </div>
+               <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                     <ul class="vertical-nav-menu my-quotes-dtls">
+                        <li class="app-sidebar__heading">Quotation</li>
+                        <li class="">
+                           <a href="#">
+                           <i class="metismenu-icon pe-7s-note2"></i>
+                           My Quotes <span class="badge badge-pill badge-warning">2</span>
+                           <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                           </a>
+                           <ul>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon"></i>
+                                 Success
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon">
+                                 </i>Pending Quotation
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="tourapproval.html">
+                           <i class="metismenu-icon pe-7s-car"></i>
+                           Tour Approval<span class="badge badge-pill badge-danger">3</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="qcpending.html">
+                           <i class="metismenu-icon pe-7s-display2"></i>
+                           QC Pending<span class="badge badge-pill badge-success">9</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="ticketed.html">
+                           <i class="metismenu-icon pe-7s-copy-file"></i>
+                           Ticketed<span class="badge badge-pill badge-primary">6</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="vertical-nav-menu">
+                        <li class="app-sidebar__heading">User Info</li>
+                        <li>
+                           <a href="Edit-profile.html">
+                           <i class="metismenu-icon pe-7s-user"></i>
+                           Edit profile
+                           </a>
+                        </li>
+                        <li>
+                           <a href="agentuser.html">
+                           <i class="metismenu-icon pe-7s-users"></i>
+                           Agent User
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="app-main__outer">
+               <div class="app-main__inner">
+               
+                 <div class="page-header-sec">
+			   <div class="app-page-title">
+				<div class="page-title-wrapper">
+					<div class="page-title-heading">
+						<div class="page-title-icon">
+							<i class="pe-7s-display1 icon-gradient bg-premium-dark">
+							</i>
+						</div>
+						<div>Booking Details
+
+							<div class="page-title-subheading"> 
+							<ul class="list-inline">
+								<li class="dest"><i class="material-icons">business_center</i>London (LHR) to Chennai (MAA)</li>
+								<li class="selected-date">Wed, 11 Mar - Sat, 14 Mar</li>
+								<li class="nooftevellers">2 Travellers</li>
+							</ul>
+
+							</div>
+						</div>
+					</div>
+					   </div>
+			</div>
+				</div>
+	  <section class="search-wrapper">
+         <section class="hotel-search">
+            <div class="container">
+               <div class="col-md-12 col-xs-12 col-sm-12" style="padding:0px">
+               <div class="col-md-9 col-xs-12 col-sm-12 mobile-view">
+			       <div class="col-md-12 booking-dtls">
+					<h2 class="flight-trip-dtls"><i class="material-icons">flight</i>Tue, 18 Feb - Sat, 22 Feb <br>
+					<span class="trip-detail">4 nights</span> 
+					<span class="travel-detail">1 room</span></h2>
+				</div>
+				  <div class="col-md-12 col-xs-12 col-sm-12 flight-booking-details">
+					 <div class="col-md-3 col-xs-12 col-sm-3" style="padding:0px">
+					    <img src="img/GF.png" class="book-dtls-img">
+						<span class="book-dtls-timing">22:00 - 20:10</span>
+						<span class="book-dtls-airline">Gulf air</span>
+					 </div>
+					 <div class="col-md-3 col-xs-6 col-sm-3" style="padding:0px">
+						<p class="book-dtls-travel-hrs">16h 40m</p>
+						<p class="book-dtls-loc">LHR - MAA</p>
+					 </div>
+					 <div class="col-md-3 col-xs-6 col-sm-3" style="padding:0px">
+						<p class="book-dtls-stop">1 stop</p>
+						<p class="book-dtls-desttime">6h 0m in DXB</p>
+						<p class="arival-time">Arrives Tue, 18 Feb</p>
+					 </div>
+					 <div class="col-md-3 col-xs-12 col-sm-3">
+						<p class="special-fare">Special Fare</p>
+					 </div>
+						<div class="clearfix"></div>
+						
+						 <div class="col-md-3 col-xs-12 col-sm-3" style="padding:0px">
+					    <img src="img/GF.png" class="book-dtls-img">
+						<span class="book-dtls-timing">03:30 - 12:10</span>
+						<span class="book-dtls-airline">Gulf air</span>
+					 </div>
+					 <div class="col-md-3 col-xs-6 col-sm-3" style="padding:0px">
+						<p class="book-dtls-travel-hrs">14h 10m</p>
+						<p class="book-dtls-loc">MAA - STN</p>
+					 </div>
+					 <div class="col-md-3 col-xs-6 col-sm-3" style="padding:0px">
+						<p class="book-dtls-stop">1 stop</p>
+						<p class="book-dtls-desttime">2h 0m in DXB</p>
+					 </div>
+					 <div class="col-md-3 col-xs-12 col-sm-3">
+						<p class="special-fare">Special Fare</p>
+					 </div>
+					 <div class="clearfix"></div>
+					 <p class="show-baggage">
+						<a href="">Show flight and baggage fee details <i class="material-icons">keyboard_arrow_down</i></a>
+					</p>
+					 <div class="clearfix"></div>
+					 <p class="book-change-flight">
+						<a href="flght-search.html"><i class="material-icons">keyboard_arrow_left</i> Change flights </a>
+					</p>
+				  </div>
+			       <div class="col-md-12 booking-dtls">
+					<h2 class="hotel-trip-dtls"><i class="material-icons">location_city</i>Mon, 17 Feb -  to Sat, 22 Feb <br><span class="trip-detail">Roundtrip</span> 
+					<span class="travel-detail">2 travellers</span></h2>
+				</div>
+				  <div class="col-md-12 col-xs-12 col-sm-12 hotel-booking-details">
+					 <div class="col-md-4 col-sm-3 col-xs-12" style="padding:0px">
+							<img src="img/hotel/h2.jpg" class="img-responsive">
+						</div>
+					 <div class="col-md-4 col-xs-12 col-sm-3">
+						<h3>Park Hyatt Chennai</h3>
+						<span class="star-rating">
+							<i class="material-icons">star</i>
+							<i class="material-icons">star</i>
+							<i class="material-icons">star</i>
+							<i class="material-icons">star</i>
+							<i class="material-icons">star</i>
+						</span>
+						<p>Chennai</p>
+						<p>Room, 2 Single Beds</p>
+						<p class="breakfast"><i class="material-icons">check</i>Free Breakfast</p>
+						<p class="freewifi"><i class="material-icons">check</i>Free WiFi</p>
+						<p class="show-roominfo">
+						<a href="">Show room information<i class="material-icons">keyboard_arrow_down</i></a>
+					</p>
+					 </div>
+					 <div class="col-md-4 col-xs-12 col-sm-3 text-right">
+						<p class="book-dtls-review">4.6/5</p>
+						<p><a href="">(260 reviews)</a></p>
+					 </div>
+					
+						<div class="clearfix"></div>
+					
+					 <p class="book-change-flight">
+						<a href="hotel-search.html"><i class="material-icons">keyboard_arrow_left</i> Change hotel </a>
+					</p>
+				  </div>
+				    <a href="payment.html"><button class="btn btn-primary btndetails">Next: Final details</button></a>
+               </div>
+			     <div class="col-md-3 col-xs-12 col-sm-12">
+				     <div class="clearfix"></div>
+					 <hr class="summary-divider">
+					<h2 class="summary-dtls">
+					<i class="material-icons">flight</i>Return Flight</h2>
+					<p class="return-flight">London (LHR) to Chennai (MAA)<br>
+					<span class="summary-detail">Mon, 17 Feb - Sat, 22 Feb</span> <br>
+					<span class="travel-detail"><span class="deptarriv-time">Departure: Arrives on Tue, 18 Feb.</span>
+					Your hotel check-in reflects this arrival.</span><br>
+					<span class="nooftick">2 Tickets: 2 Adults</span>
+					</p>
+					<div class="clearfix"></div>
+					<hr style="border-top: 1px solid #827c7c;  margin:10px 0px;">
+					<h2 class="hotel-summary-dtls">
+					<i class="material-icons">location_city</i>Park Hyatt Chennai</h2>
+					<p class="return-flight">Chennai<br>
+					<span class="summary-detail">Tue, 18 Feb - Sat, 22 Feb</span> <br>
+					<span class="nooftick">1 Room: 4 nights</span>
+					</p>
+					<div class="clearfix"></div>
+					<hr style="border-top: 1px solid #827c7c; margin:10px 0px;">
+					 <p> <span class="start-price">Starting price</span><span class="start-price-dtls">$1,406.48</span></p>
+						<p><span class="package-save">Package savings</span><span class="pack-price-dtls"> -$213.66</span></p>
+						<p><span class="taxes">Taxes & Fees</span><span class="pack-price-dtls" style="font-weight:normal;"> $772.48</span></p>
+						<hr style="margin:10px 0px;border-top: 1px solid #827c7c; ">
+						<p style="font-weight:bold;"><span class="total-cost">Total</span><span class="total-price-dtls">$1,965.30</span></p>
+						<p>All prices include taxes & fees and are quoted</p>
+						<p class="text-right noofroomsleft">Only 3 rooms left at this price!</p>
+						<a href="payment.html"><button class="btn btn-primary btndetails" style="width:100%">Next: Final details</button></a>
+			     </div>
+                </div>
+            </div>
+         </section>
+      </section>
+    
+               </div>
+			    <div class="app-wrapper-footer">
+                        <div class="app-footer">
+                            <div class="app-footer__inner text-center">
+                                 <p class="text-center">© 2020 lycafly, Inc, an lycafly Group Company. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="./bootstrap.min.js"></script>
+      <script src="./owl.carousel.min.js"></script>
+      <script src="./custom.js"></script>
+      <script>
+         $('.owl-carousel').owlCarousel({
+         loop:true,
+         margin:10,
+         nav:true,
+         navText:false,
+         responsive:{
+         0:{
+            items:1
+         },
+         600:{
+            items:1
+         },
+         1000:{
+            items:1
+         }
+         }
+         })	
+      </script>
+      <script type="text/javascript" src="./assets/scripts/main.js"></script>
+	  <script language="JavaScript">
+         $(document).ready(function() {
+          $('.lab-slide-up').find('a').attr('data-toggle', 'modal');
+          $('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
+          });
+          });
+      </script>
+      <script type="text/javascript">
+         function showHideDiv(ele) {
+         	var srcElement = document.getElementById(ele);
+         	if (srcElement != null) {
+         		if (srcElement.style.display == "block") {
+         			srcElement.style.display = 'none';
+         		}
+         		else {
+         			srcElement.style.display = 'block';
+         		}
+         		return false;
+         	}
+         }
+         $('.top').on('click', function() {
+         	$parent_box = $(this).closest('.box');
+         	$parent_box.siblings().find('.bottom').slideUp();
+         	$parent_box.find('.bottom').slideToggle(1000, 'swing');
+         });
+      </script>
+	<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+
+			  // Store hash
+			  var hash = this.hash;
+
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
+		});
+		</script>
+		 
+   </body>
+</html>

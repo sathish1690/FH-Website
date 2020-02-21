@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Language" content="en">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Lycafly</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+      <meta name="description" content="Build whatever layout you need with our Architect framework.">
+      <meta name="msapplication-tap-highlight" content="no">
+      <link href="./main.css" rel="stylesheet">
+      <link href="./style.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar" id="sidebar-navigation">
+         <div class="app-header header-shadow">
+            <div class="app-header__logo">
+               <div class="logo-src">	
+                  <img src="assets/images/logo-inverse.png">
+               </div>
+               <div class="header__pane ml-auto">
+                  <div>
+                     <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="app-header__content">
+               <div class="app-header-left">
+                  <ul class="header-menu nav">
+                     <li class="nav-item">
+                        <a href="home.html" class="nav-link">
+                        <i class="material-icons">flight</i>Fight
+                        </a>
+                     </li>
+                     <li class="btn-group nav-item">
+                        <a href="home-hotel.html" class="nav-link">
+                        <i class="material-icons">location_city</i> Hotel
+                        </a>
+                     </li>
+                     <li class="dropdown nav-item">
+                        <a href="home-fh.html" class="nav-link">
+                        <i class="material-icons">flight</i>  <i class="material-icons">location_city</i>
+                        Flight + hotel
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="app-header-right">
+                  <div class="header-btn-lg pr-0">
+                     <div class="widget-content p-0">
+                        <div class="widget-content-wrapper">
+                           <div class="widget-content-left">
+                              <div class="btn-group">
+                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                 <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                 <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                 </a>
+                                 <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                    <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Change password</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Log out</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="widget-content-left  ml-3 header-user-info">
+                              <div class="widget-heading">
+                                 Janaka Rajarathne
+                              </div>
+                              <div class="widget-subheading">
+                                 Sales Manager
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+               <div class="app-header__logo">
+                  <div class="logo-src"></div>
+                  <div class="header__pane ml-auto">
+                     <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="app-header__mobile-menu">
+                  <div>
+                     <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+               <div class="app-header__menu">
+                  <span>
+                  <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                  <span class="btn-icon-wrapper">
+                  <i class="fa fa-ellipsis-v fa-w-6"></i>
+                  </span>
+                  </button>
+                  </span>
+               </div>
+               <div class="scrollbar-sidebar">
+                 <div class="app-sidebar__inner">
+                     <ul class="vertical-nav-menu my-quotes-dtls">
+                        <li class="app-sidebar__heading">Quotation</li>
+                        <li class="">
+                           <a href="#">
+                           <i class="metismenu-icon pe-7s-note2"></i>
+                           My Quotes <span class="badge badge-pill badge-warning">2</span>
+                           <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                           </a>
+                           <ul>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon"></i>
+                                 Success
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon">
+                                 </i>Pending Quotation
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="tourapproval.html">
+                           <i class="metismenu-icon pe-7s-car"></i>
+                           Tour Approval<span class="badge badge-pill badge-danger">3</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="qcpending.html">
+                           <i class="metismenu-icon pe-7s-display2"></i>
+                           QC Pending<span class="badge badge-pill badge-success">9</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="ticketed.html">
+                           <i class="metismenu-icon pe-7s-copy-file"></i>
+                           Ticketed<span class="badge badge-pill badge-primary">6</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="vertical-nav-menu">
+                        <li class="app-sidebar__heading">User Info</li>
+                        <li>
+                           <a href="Edit-profile.html">
+                           <i class="metismenu-icon pe-7s-user"></i>
+                           Edit profile
+                           </a>
+                        </li>
+                        <li>
+                           <a href="agentuser.html">
+                           <i class="metismenu-icon pe-7s-users"></i>
+                           Agent User
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="app-main__outer">
+               <div class="app-main__inner" style=" padding: 30px 30px 0">
+                  <div class="app-page-title">
+                     <div class="page-title-wrapper">
+                        <div class="page-title-heading">
+                           <div class="page-title-icon">
+                              <i class="pe-7s-graph text-success">
+                              </i>
+                           </div>
+                           <div>
+                              Edit Profile
+                              <div class="page-title-subheading">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-content">
+                     <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
+                        <div class="main-card mb-3 card user-info">
+                           <div class="card-body">
+                              <form class="">
+							  <h3>Agency Information</h3>
+                                 <div class="form-row">
+									  <div class="clearfix"></div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group">
+									   <label for="aname" class="">Agency Name *</label>
+									   <input name="aname" id="exampleEmail11" placeholder="Agency Name" type="aname" class="form-control"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group">
+									   <label for="ATOLNumber" class="">ATOL Number</label>
+									   <input name="ATOLNumber" id="exampleEmail11" placeholder="ATOL Number" type="ATOLNumber" class="form-control"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group">
+									   <label for="RegNo" class="">Company Reg.No*</label>
+									   <input name="RegNo" id="exampleEmail11" placeholder="Company Reg.No" type="RegNo" class="form-control"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group">
+									   <label for="VatNo" class="">Vat No.</label>
+									   <input name="VatNo" id="exampleEmail11" placeholder="Vat No." type="VatNo" class="form-control"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group">
+									   <label for="FaxNo" class="">Fax No</label>
+									   <input name="FaxNo" id="exampleEmail11" placeholder="Fax No" type="FaxNo" class="form-control"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group">
+									   <label for="IATAno" class="">IATA No.</label>
+									   <input name="IATAno" id="exampleEmail11" placeholder="IATA No." type="IATAno" class="form-control"></div>
+                                    </div>
+                                 </div>
+								 <div class="clearfix"></div>
+								 <hr>
+								   <h3>Contact Info</h3>
+								 
+                                 <div class="form-row">
+                                    <div class="col-md-4">
+									<div class="form-row">
+									   <div class="col-md-3" style="padding:0px;">
+                                       <div class="position-relative form-group">
+									   <label for="exampleCity" class="">Title *</label>
+									   <select id="title" name="title" class="form-control">
+										<option value="">Select</option>
+										<option value="Mr">Mr</option>
+										<option value="Mrs">Mrs</option>
+										<option value="Miss">Miss</option>
+										<option value="Dr">Dr</option>
+										<option value="Rev">Rev</option>
+									  </select>
+									  </div>
+									  </div>
+									  <div class="col-md-8">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">Contact Person *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+									 </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">SurName *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleZip" class="">Contact No</label>
+									   <input name="zip" id="exampleZip" type="text" class="form-control"></div>
+                                    </div>
+									
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">Country *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+									
+                                    <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">Post Code *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+                                    <div class="col-md-4">
+									 <div class="position-relative form-group">
+									 <label for="exampleState" class="">&nbsp;</label><br>
+                                     <input type="submit" value="Find Address" class="btn btn-success">
+                                    </div>
+                                 </div>
+								  <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">Email *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+								  <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">Building No *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+								  <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">Street Name *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+								  <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">County</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+								 
+								  <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">City *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+								 
+								  <div class="col-md-4">
+                                       <div class="position-relative form-group"><label for="exampleState" class="">Gen.Contact No *</label>
+									   <input name="state" id="exampleState" type="text" class="form-control"></div>
+                                    </div>
+								 
+                                 <div class="position-relative form-check checkmeout"><input name="check" id="exampleCheck" type="checkbox" class="form-check-input"><label for="exampleCheck" class="form-check-label">Check me out</label></div>
+								 <div class="clearfix"></div>
+								 <div class="col-md-12">
+                                 <button class="success btn btn-primary btneditsave">Save</button>
+								 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+			<div class="app-wrapper-footer">
+                  <div class="app-footer">
+                     <div class="app-footer__inner text-center">
+                        <p class="text-center">© 2020 lycafly, Inc, an lycafly Group Company. All rights reserved.</p>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="./assets/scripts/main.js"></script>
+   </body>
+   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.2/js/toastr.min.js"></script>
+   <script>
+      $(function() {
+      $("button").click(function(e) {
+        e.preventDefault();
+        alert.slideDown();
+        window.setTimeout(function() {
+          alert.slideUp();
+        }, 2500);
+      });
+      });
+      
+   </script>
+   <script type="text/javascript">
+      $(".success").click(function(){
+      	toastr.success('Saved Successfully', {timeOut: 5000})
+      });
+      
+      /*
+      $(".error").click(function(){
+      	toastr.error('You Got Error', 'Inconceivable!', {timeOut: 5000})
+      });
+      
+      
+      $(".info").click(function(){
+      	toastr.info('It is for your kind information', 'Information', {timeOut: 5000})
+      });
+      
+      
+      $(".warning").click(function(){
+      	toastr.warning('It is for your kind warning', 'Warning', {timeOut: 5000})
+      });*/
+   </script>
+   
+</html>

@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="Content-Language" content="en">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Lycafly</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+      <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+      <meta name="msapplication-tap-highlight" content="no">
+      <link href="./main.css" rel="stylesheet">
+      <link rel="stylesheet" href="./bootstrap.min.css">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="./owl.carousel.css">
+	  <script>
+	    
+	  </script>
+   </head>
+   <body>
+      <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar" id="sidebar-navigation">
+         <div class="app-header header-shadow">
+            <div class="app-header__logo">
+               <div class="logo-src">
+                  <img src="assets/images/logo-inverse.png">
+               </div>
+               <div class="header__pane ml-auto">
+                  <div>
+                     <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="app-header__mobile-menu">
+               <div>
+                  <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                  <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                  </span>
+                  </button>
+               </div>
+            </div>
+            <div class="app-header__menu">
+               <span>
+               <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+               <span class="btn-icon-wrapper">
+               <i class="fa fa-ellipsis-v fa-w-6"></i>
+               </span>
+               </button>
+               </span>
+            </div>
+            <div class="app-header__content">
+              <div class="app-header-left">
+                  <ul class="header-menu nav">
+                     <li class="nav-item">
+                        <a href="home.html" class="nav-link">
+                        <i class="material-icons">flight</i>Fight
+                        </a>
+                     </li>
+                     <li class="btn-group nav-item">
+                        <a href="home-hotel.html" class="nav-link">
+                        <i class="material-icons">location_city</i> Hotel
+                        </a>
+                     </li>
+                     <li class="dropdown nav-item">
+                        <a href="home-fh.html" class="nav-link">
+                        <i class="material-icons">flight</i>  <i class="material-icons">location_city</i>
+                        Flight + hotel
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="app-header-right">
+                  <div class="header-btn-lg pr-0">
+                     <div class="widget-content p-0">
+                        <div class="widget-content-wrapper">
+                           <div class="widget-content-left">
+                              <div class="btn-group">
+                                 <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                 <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                 <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                 </a>
+                                 <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                     <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Change password</button>
+                                    <button type="button" tabindex="0" class="dropdown-item">Log out</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="widget-content-left  ml-3 header-user-info">
+                              <div class="widget-heading">
+                                 Janaka Rajarathne
+                              </div>
+                              <div class="widget-subheading">
+                                 Sales Manager
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        
+         <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+               <div class="app-header__logo">
+                  <div class="logo-src"></div>
+                  <div class="header__pane ml-auto">
+                     <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="app-header__mobile-menu">
+                  <div>
+                     <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                     <span class="hamburger-box">
+                     <span class="hamburger-inner"></span>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+               <div class="app-header__menu">
+                  <span>
+                  <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                  <span class="btn-icon-wrapper">
+                  <i class="fa fa-ellipsis-v fa-w-6"></i>
+                  </span>
+                  </button>
+                  </span>
+               </div>
+               <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                     <ul class="vertical-nav-menu my-quotes-dtls">
+                        <li class="app-sidebar__heading">Quotation</li>
+                        <li class="">
+                           <a href="#">
+                           <i class="metismenu-icon pe-7s-note2"></i>
+                           My Quotes <span class="badge badge-pill badge-warning">2</span>
+                           <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                           </a>
+                           <ul>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon"></i>
+                                 Success
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="myquotes.html">
+                                 <i class="metismenu-icon">
+                                 </i>Pending Quotation
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="tourapproval.html">
+                           <i class="metismenu-icon pe-7s-car"></i>
+                           Tour Approval<span class="badge badge-pill badge-danger">3</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="qcpending.html">
+                           <i class="metismenu-icon pe-7s-display2"></i>
+                           QC Pending<span class="badge badge-pill badge-success">9</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="ticketed.html">
+                           <i class="metismenu-icon pe-7s-copy-file"></i>
+                           Ticketed<span class="badge badge-pill badge-primary">6</span>
+                           </a>
+                        </li>
+                     </ul>
+                     <ul class="vertical-nav-menu">
+                        <li class="app-sidebar__heading">User Info</li>
+                        <li>
+                           <a href="Edit-profile.html">
+                           <i class="metismenu-icon pe-7s-user"></i>
+                           Edit profile
+                           </a>
+                        </li>
+                        <li>
+                           <a href="agentuser.html">
+                           <i class="metismenu-icon pe-7s-users"></i>
+                           Agent User
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="app-main__outer">
+               <div class="app-main__inner">
+					  <section class="banner-sec">
+         <div class="banner-overlay">
+            <div class="container ">
+               <div class="row flight-search-sec">
+                  <div class="col-md-12">
+                     <div class="tab" role="tabpanel">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                           <li role="presentation" class="flight-icon">
+                              <a href="#Section1" aria-controls="messages" role="tab" data-toggle="tab">
+                              <i class="material-icons">flight</i>Fights
+                              </a>
+                           </li>
+                           <li role="presentation" class="hotel-icon">
+                              <a href="#Section2" aria-controls="messages" role="tab" data-toggle="tab">
+                              <i class="material-icons">location_city</i>Hotels
+                              </a>
+                           </li>
+                           <li role="presentation" class="active flight-hotel-icon">
+                              <a href="#Section3" aria-controls="profile" role="tab" data-toggle="tab">
+                              <span class="flighthotel"> <i class="material-icons fly-flight">flight</i> 
+                              <i class="material-icons">location_city</i> </span>Flight + Hotel
+                              </a>
+                           </li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content tabs">
+                           <div role="tabpanel" class="tab-pane fade in" id="Section1">
+                              <div id="exTab1" class="container">
+                                 <ul  class="nav nav-pills">
+                                    <li class="active">
+                                       <a  href="#1a" data-toggle="tab">Return</a>
+                                    </li>
+                                    <li><a href="#2a" data-toggle="tab">Oneway</a>
+                                    </li>
+                                    <li><a href="#3a" data-toggle="tab">Multi-city</a>
+                                    </li>
+                                 </ul>
+                                 <div class="tab-content clearfix">
+                                    <div class="tab-pane active" id="1a">
+                                       <div class="col-md-10 return-cty">
+                                          <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Leaving from</label></span>
+                                             <input type="text" class="form-control" id="departure" placeholder="City or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Going to</label></span>
+                                             <input type="text" class="form-control" id="destination" placeholder="Hotel name, city or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Departing</label></span>
+                                             <input type="text" class="form-control" id="Check-in" placeholder="">
+                                             <i class="material-icons">date_range</i>
+                                          </div>
+                                          <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Returning</label></span>
+                                             <input type="text" class="form-control" id="Check-out" placeholder="">
+                                             <i class="material-icons">date_range</i>
+                                          </div>
+                                          <div class="form-group col-md-5 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Travellers</label></span>
+                                             <input type="text" class="form-control" id="Travellers" placeholder="">
+                                             <i class="material-icons">people</i>
+                                          </div>
+										   <div class="clearfix"></div>
+                                          <div class="col-md-12" style="margin-top:20px;">
+                                             <div class="form-group col-md-3">
+                                                <label class="check-container">  <i class="material-icons">location_city</i>
+                                                <span class="Addflight">Add a hotel</span>
+                                                <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                                <span class="checkmark"></span>
+                                                </label>
+                                             </div>
+											  <div class="clearfix"></div>
+                                             <!--<div class="form-group col-md-6">
+                                                <label class="check-container"> <i class="material-icons">directions_car</i>
+                                                <span class="Addflight"> Add a car</span>
+                                                <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                                <span class="checkmark"></span>
+                                                </label>
+                                             </div>-->
+                                          </div>
+                                          <div class="col-md-3" style="padding:10px">
+                                             <p><a href="flght-search.html"><button class="btn btn-success btnsearch"> Search</button></a></p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="tab-pane" id="2a">
+                                       <div class="col-md-10 return-cty">
+                                          <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Leaving from</label></span>
+                                             <input type="text" class="form-control" id="departure" placeholder="City or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Going to</label></span>
+                                             <input type="text" class="form-control" id="destination" placeholder="Hotel name, city or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Departing</label></span>
+                                             <input type="text" class="form-control" id="Check-in" placeholder="">
+                                             <i class="material-icons">date_range</i>
+                                          </div>
+                                          <div class="form-group col-md-5 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Travellers</label></span>
+                                             <input type="text" class="form-control" id="Travellers" placeholder="">
+                                             <i class="material-icons">people</i>
+                                          </div>
+										  <div class="clearfix"></div>
+                                          <div class="col-md-12" style="margin-top:20px;">
+                                             <div class="form-group col-md-3">
+                                                <label class="check-container">  <i class="material-icons">location_city</i>
+                                                <span class="Addflight">Add a hotel</span>
+                                                <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                                <span class="checkmark"></span>
+                                                </label>
+                                             </div>
+                                             <div class="form-group col-md-6">
+                                             </div>
+                                          </div>
+                                          <div class="col-md-3" style="padding:10px">
+                                             <p><a href="hotel-search.html"><button class="btn btn-success btnsearch"> Search</button></a></p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                    <div class="tab-pane" id="3a">
+                                       <div class="col-md-10 return-cty">
+                                          <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Leaving from</label></span>
+                                             <input type="text" class="form-control" id="departure" placeholder="City or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Going to</label></span>
+                                             <input type="text" class="form-control" id="destination" placeholder="Hotel name, city or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Departing</label></span>
+                                             <input type="text" class="form-control" id="Check-in" placeholder="">
+                                             <i class="material-icons">date_range</i>
+                                          </div>
+                                          <div class="form-group col-md-5 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Travellers</label></span>
+                                             <input type="text" class="form-control" id="Travellers" placeholder="">
+                                             <i class="material-icons">people</i>
+                                          </div>
+										  <div class="clearfix"></div>
+										  <div class="form-group col-md-4 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Leaving from</label></span>
+                                             <input type="text" class="form-control" id="departure" placeholder="City or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-4 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                             <span class="label-input"><label>Going to</label></span>
+                                             <input type="text" class="form-control" id="destination" placeholder="Hotel name, city or airport">
+                                             <i class="material-icons">place</i>
+                                          </div>
+                                          <div class="form-group col-md-4 col-sm-6 col-xs-12">
+                                             <span class="label-input"><label>Departing</label></span>
+                                             <input type="text" class="form-control" id="Check-in" placeholder="">
+                                             <i class="material-icons">date_range</i>
+                                          </div>
+										   <div class="clearfix"></div>
+										  <div class="text-left">
+										  <p>+ Add another flight</p>
+										  </div>
+											 <div class="clearfix"></div>
+                                          <div class="col-md-3" style="padding:10px">
+                                             <p><button class="btn btn-success btnsearch"> Search</button></p>
+                                          </div>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                   
+                                 </div>
+                              </div>
+                           </div>
+                           <div role="tabpanel" class="tab-pane fade in" id="Section2">
+                              <div class="col-md-10 return-cty">
+                                 <div class="form-group col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;">
+                                    <span class="label-input"><label>Going to</label></span>
+                                    <input type="text" class="form-control" id="departure" placeholder="Hotel name, city or airport">
+                                    <i class="material-icons">place</i>
+                                 </div>
+                                 <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                    <span class="label-input"><label>Check-in</label></span>
+                                    <input type="text" class="form-control" id="Check-in" placeholder="">
+                                    <i class="material-icons">date_range</i>
+                                 </div>
+                                 <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                    <span class="label-input"><label>Check-out</label></span>
+                                    <input type="text" class="form-control" id="Check-out" placeholder="">
+                                    <i class="material-icons">date_range</i>
+                                 </div>
+                                 <div class="form-group col-md-5 col-sm-6 col-xs-12">
+                                    <span class="label-input"><label>Travellers</label></span>
+                                    <input type="text" class="form-control" id="Travellers" placeholder="">
+                                    <i class="material-icons">people</i>
+                                 </div>
+                                 <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top:20px;">
+                                    <div class="form-group col-md-3">
+                                       <label class="check-container">  <i class="material-icons">flight</i>
+                                       <span class="Addflight">Add a flight </span>
+                                       <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                    </div>
+                                    <!--<div class="form-group col-md-3">
+                                       <label class="check-container">  <i class="material-icons">directions_car</i>
+                                       <span class="Addflight">Add a car</span>
+                                       <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                    </div>-->
+                                 </div>
+                                 <div class="col-md-3" style="padding:10px">
+                                    <p><a href="hotel-search.html"><button class="btn btn-success btnsearch"> Search</button></a></p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </div>
+                           </div>
+                           <div role="tabpanel" class="tab-pane fade in active" id="Section3">
+                              <div class="col-md-10 return-cty">
+                                 <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                    <span class="label-input"><label>Leaving from</label></span>
+                                    <input type="text" class="form-control" id="departure" placeholder="City or airport">
+                                    <i class="material-icons">place</i>
+                                 </div>
+                                 <div class="form-group col-md-6 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+                                    <span class="label-input"><label>Going to</label></span>
+                                    <input type="text" class="form-control" id="destination" placeholder="Hotel name, city or airport">
+                                    <i class="material-icons">place</i>
+                                 </div>
+                                 <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                    <span class="label-input"><label>Check-in</label></span>
+                                    <input type="text" class="form-control" id="Check-in" placeholder="">
+                                    <i class="material-icons">date_range</i>
+                                 </div>
+                                 <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                    <span class="label-input"><label>Check-out</label></span>
+                                    <input type="text" class="form-control" id="Check-out" placeholder="">
+                                    <i class="material-icons">date_range</i>
+                                 </div>
+                                 <div class="form-group col-md-5 col-sm-6 col-xs-12">
+                                    <span class="label-input"><label>Travellers</label></span>
+                                    <input type="text" class="form-control" id="Travellers" placeholder="">
+                                    <i class="material-icons">people</i>
+                                 </div>
+                                 <div class="col-md-12" style="margin-top:20px;">
+                                    <div class="form-group col-md-3 col-sm-6 col-xs-12">
+                                       <label class="check-container">  
+                                       <span class="Addflight">Direct flights only</span>
+                                       <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                       <label class="check-container"> 
+                                       <span class="Addflight"> I just need a hotel for part of the trip</span>
+                                       <input type="checkbox" name="search-select" class="search-checkbox check1">
+                                       <span class="checkmark"></span>
+                                       </label>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3" style="padding:10px">
+                                    <p><a href="FH-search-page.html"><button class="btn btn-success btnsearch"> Search</button></a></p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+	  
+	  <section class="flight-page-content">
+		 <div class="container">
+		    <h3>Today's Top Deals</h3>
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+				  <div class="owl-cnt">
+					<img src="img/1.png">
+					 <h4 class="tile-name">SAVE SAVE SAVE</h4>
+					 <p class="secondary"><span>Book early &amp; save 25% or more</span></p>
+					</div>
+				</div>
+				
+				<div class="item">
+				 <div class="owl-cnt">
+					<img src="img/2.png">
+					<h4 class="tile-name">Don't Miss Out on Today's Low Fares</h4>
+					 <p class="secondary"><span>Save now on flights</span></p>
+				</div>
+				</div>
+				
+				<div class="item">
+				<div class="owl-cnt">
+					<img src="img/3.png">
+					 <h4 class="tile-name">Take a British holiday with our latest offers</h4>
+					 <p class="secondary"><span>From the city to the countryside, find your perfect adventure</span></p>
+				</div>
+				</div>
+				
+				<div class="item">
+				<div class="owl-cnt">
+					<img src="img/4.png">
+					<h4 class="tile-name">Need to get to the airport?</h4>
+					<p class="secondary"><span>Book transfer now</span></p>
+				</div>
+				</div>
+				
+				<div class="item">
+				<div class="owl-cnt">
+					<img src="img/5.png">
+					<h4 class="tile-name">Last Minute Travel Deals</h4>
+					<p class="secondary"><span>Book now for travel in the next 2 weeks</span></p>
+				</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<!--<div class="atollogo col-md-12">
+				<p><span><img src="img/atollogo.png"></span><strong> Book Confidently</strong> Your Flight + Hotel package holiday will be ATOL protected.</p>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-12 Popular-cities" >
+				<h3>Popular Flight Destinations</h3>
+				<div class="col-md-3 col-sm-3 col-xs-6" style="padding: 0px;">	
+				  <ul class="list-unstyled">
+					  <li>Flights to Las Vegas</li>
+					  <li>Flights to Dubai</li>
+					  <li><Flights to New York</li>
+					  <li>Flights to Berlin</li>
+					  <li>Flights to Milan</li>
+					  <li>Flights to Sri Lanka</li>
+					  <li>Flights to Rome</li>
+					  <li>Flights to Amsterdam</li>
+					   <li>Flights to Edinburgh</li>
+				  </ul>
+				  </div>
+				  <div class="col-md-3 col-sm-3 col-xs-6" style="padding: 0px;">	
+				  <ul class="list-unstyled">
+					  <li>Flights to Barcelona</li>
+					  <li>Flights to Orlando</li>
+					  <li>Flights to Dublin</li>
+					  <li>Flights to London</li>
+					  <li>Flights to Algarve</li>
+					  <li>Flights to Tenerife</li>
+					  <li>Flights to Paris</li>
+					  <li>Flights to Los Angeles</li>
+				   </ul>
+				     </div>
+				  <div class="col-md-3 col-sm-3 col-xs-6" style="padding: 0px;">	
+				  <ul class="list-unstyled">
+					  <li>Flights to Bangkok</li>
+					  <li>Flights to Bali</li>
+					  <li>Flights to Malta</li>
+					  <li>Flights to Toronto</li>
+					  <li>Flights to Budapest</li>
+					  <li>Flights to Venice</li>
+					  <li>Flights to Prague</li>
+					  <li>Flights to Nice</li>
+					 
+					  
+				   </ul>
+				     </div>
+				  <div class="col-md-3 col-sm-3 col-xs-6" style="padding: 0px;">	
+				  <ul class="list-unstyled">
+					  <li>Flights to Benidorm</li>
+					  <li>Flights to Singapore</li>
+					  <li>Flights to Malaga</li>
+					  <li>Flights to Tokyo</li>
+					  <li>Flights to Hong Kong</li>
+					  <li>Flights to Geneva</li>
+					  <li>Flights to Istanbul</li>
+				  </ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-12 Popular-city-cnt">
+				<p>Booking cheap flights is easy with lycafly. Wherever you need to be; whether you want low cost airfares with a budget airline or you are looking for first class flights with a top carrier; we can help you find the cheapest flights.</p>
+			</div>
+			<div class="col-md-12 best-flight">
+			   <h4>The Best Flight Offers Tailored to You</h4>
+				<p>You can even combine your flight tickets with a hotel stay and take advantage of even bigger savings. For the best package deals visit the Flight + Hotel page and take advantage of the great combo prices we have listed. Again, there as no shortage of options you can choose from, putting you in complete control. Choose your preferred flight options and then choose what kind of hotel will await you the other side; from cheap but cheerful budget hotels to opulent five-star resorts.</p>
+			</div>
+			<div class="col-md-12 last-min-deal">
+			   <h4>Book Last Minute Flight Deals</h4>
+				<p>With lycafly you get up-to-date, real-time information about flight times and prices, so you know you are getting the best deal available. You are sure to find great deals on last minute flights with lycafly. We even have a page dedicated to last minute deals where you can book cheap flights, holidays and hotels. Through our relationships with the most respected airlines in the world, we can offer our customers exclusive offers, seat sales and great deals unavailable elsewhere.</p>
+				<p>It as easy to find the best flight prices with lycafly. With our easy to use search function you all find the right flight at the best price for you. Sort results according to your preference; select timings, cabin class, prices and airports that are most convenient for you. So no matter whether you looking for a short-haul flight to Amsterdam or looking to jet off across the world with a flight to New York or Tokyo, you know you all find the best flight deals with lycafly.</p>
+				<p>lycafly is designed to help you find your perfect, tailor-made holiday. As you can see, we are pretty flexible. We understand that sometimes you need to change your travel plans. Unlike some other travel sites we won at penalise you for making these changes. There are no lycafly change or cancel fees on flight or hotel bookings*</p>
+				<p>* Terms and conditions apply</p>
+			</div>
+		 </div>-->
+	  </section>
+	  
+	  <!--<section class="footer">
+		 <div class="container">
+			<p>Payments accepted on lycafly.com include American Express, Diner's Club International, Maestro, MasterCard, Visa, Visa Electron and PayPal.</p>
+			<p>Flight-inclusive Packages created on lycafly.com are financially protected by the ATOL scheme (under lycafly, Inc.'s ATOL number 5788). ATOL protection does not apply to all travel services listed on this website but you may still be financially protected when booking certain travel services listed on this website that are outside the scope of the ATOL scheme. Please ask us to confirm what financial protection may apply to your booking. This website and our general terms and conditions will provide you with information on the protection that applies in the case of each travel service offered before you make your booking. If you do not receive an ATOL Certificate then the booking will not be ATOL protected. If you do receive an ATOL Certificate but all the parts of your trip are not listed on it, those parts will not be ATOL protected.</p>
+			<p>For Packages that do not include a flight or Linked Travel Arrangements created on lycafly.co.uk, all monies paid over in the case of non flight-inclusive Packages, or any monies paid directly to us in the case of Linked Travel Arrangements, are fully protected by insurance in the event of our insolvency. This insurance protection has been arranged by International Passenger Protection Limited and underwritten by certain underwriters at Lloyd's. Please see our general terms and conditions for more information about financial protection, or for more information on the ATOL Certificate go to: www.caa.co.uk.</p>
+			<p>lycafly, Inc. is not responsible for content on external Web sites.</p>
+			<p class="text-center"><img src="img/atollogo.png"> <img src="img/footer-img.png">
+			</p>
+			<p class="text-center">© 2020 lycafly, Inc, an lycafly Group Company. All rights reserved.</p>
+		 </div>
+	  </section>-->
+               </div>
+			    <div class="app-wrapper-footer">
+                        <div class="app-footer">
+                            <div class="app-footer__inner text-center">
+                                 <p class="text-center">© 2020 lycafly, Inc, an lycafly Group Company. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="./bootstrap.min.js"></script>
+      <script src="./owl.carousel.min.js"></script>
+      <script src="./custom.js"></script>
+      <script>
+         $('.owl-carousel').owlCarousel({
+         loop:true,
+         margin:10,
+         nav:true,
+         navText:false,
+         responsive:{
+         0:{
+            items:1
+         },
+         600:{
+            items:1
+         },
+         1000:{
+            items:3
+         }
+         }
+         })	
+      </script>
+      <script type="text/javascript" src="./assets/scripts/main.js"></script>
+	  
+      <script type="text/javascript">
+         function showHideDiv(ele) {
+         	var srcElement = document.getElementById(ele);
+         	if (srcElement != null) {
+         		if (srcElement.style.display == "block") {
+         			srcElement.style.display = 'none';
+         		}
+         		else {
+         			srcElement.style.display = 'block';
+         		}
+         		return false;
+         	}
+         }
+         $('.top').on('click', function() {
+         	$parent_box = $(this).closest('.box');
+         	$parent_box.siblings().find('.bottom').slideUp();
+         	$parent_box.find('.bottom').slideToggle(1000, 'swing');
+         });
+
+      </script>
+	
+		
+   </body>
+</html>
